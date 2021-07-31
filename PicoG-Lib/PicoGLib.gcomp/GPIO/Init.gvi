@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="43E7EF2748428573B24F8BD9DB9AA27B88366A6AA7B0B6AC743289654D076D80D2F4F784296885C3A57BE1FA7C7FCA47E7882947A0DD446049A57625D2D68073" Timestamp="1D785C2CFE752E6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="59acadfa8d6c4a798b760e8a813e885a" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="8039a398330547859535d9548097ce88" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a354c72b458b4da38807380d98f20fb8" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="376cb574f9694e2ca310184c83c67b11" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="6c2c15b8561a403c953ea7fcb0ddf6b0" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff3ab878" Id="9c537fa226dd4382bce2424f4d00f480" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Text Foreground="[SMColor]#fffff200" Height="[float]14" Id="1ec53f82c1f4443da9d5d8b0d87e2b96" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]GPIO" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]-1" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+					<FontSetting FontFamily="Segoe UI" FontSize="9" Id="965030df23c34e45af728477a4c640d9" />
+				</Text>
+				<Path Data="[PathGeometry]M 10.4969997,5.45499992 L 14.75,3.24300003 L 12.5319996,7.48999977 L 17.9839993,8.93299961 L 12.5299997,10.3699999 L 14.7419996,14.6239996 L 10.4919996,12.4060001 L 9.05099964,17.8579998 L 7.61399984,12.4029999 L 3.3599999,14.6190004 L 5.57800007,10.368 L 0,8.92500019 L 5.57800007,7.48799992 L 3.36599994,3.2349999 L 7.61600018,5.45300007 L 9.06000042,0 L 10.4969997,5.45499992 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#fffff200" Height="[float]17.858" Id="245c9e4204554d4084cfa8eede391b44" Left="[float]11" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]17" Width="[float]17.984" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="123ecce1cbbf4f638979160a6f630925" ListViewHeight="70" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="2de99cb1cc65438e816490bcaa6cc5ec" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 50" Parameter="582378105447429b8bbe678a5550228a" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="3ffb2050346341a78f29eb93b9fdcebd" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="2acd3c0e570b43e0b4a6be0fc1a8d63d" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<NumericText BaseName="[string]Pin" Height="[float]24" Id="7a357dc0d96a43829b2de8792d4b7885" Interval="[int]1" IsReadOnly="[bool]False" Left="[float]334" Name="[string]Pin In" TabIndex="[int]0" Top="[float]208" Value="{DataItemBinding Id=2de99cb1cc65438e816490bcaa6cc5ec}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]@353748ac752f4b0cad7bb09320398f64" Width="[float]72" p4:ControlDefinitionChecksum="i+FhFwerz+PqVqjYWuDjvWqedJc9dAr22EL1VdjRdpE=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="PicoGLib::Types::Pin.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</NumericText>
+			<NumericText BaseName="[string]Pin" Height="[float]24" Id="27d00b6417c640d19e5f1a4eba95b0f7" Interval="[int]1" IsReadOnly="[bool]True" Left="[float]334" Name="[string]Pin &lt;Pin In&gt;" TabIndex="[int]1" Top="[float]208" Value="{DataItemBinding Id=582378105447429b8bbe678a5550228a}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]@353748ac752f4b0cad7bb09320398f64" Width="[float]72" p4:ControlDefinitionChecksum="i+FhFwerz+PqVqjYWuDjvWqedJc9dAr22EL1VdjRdpE=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="PicoGLib::Types::Pin.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</NumericText>
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="fd7d1b3b4a924d0cad99dbf6c97629e1">
+			<DataAccessor Bounds="380 90 40 15" DataItem="2de99cb1cc65438e816490bcaa6cc5ec" Id="10cf90b5c9804b0397885da7a11ab363" Label="6e203ab8b29a47fea628c956b074f30a" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@353748ac752f4b0cad7bb09320398f64" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="10cf90b5c9804b0397885da7a11ab363" Bounds="380 73 33 14" Id="6e203ab8b29a47fea628c956b074f30a" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Pin In</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="450 90 40 15" DataItem="582378105447429b8bbe678a5550228a" Id="dbb6d1687ea74318b9f510634282780d" Label="2525cd42955a4f4184ee42a5dd5979b8" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@353748ac752f4b0cad7bb09320398f64" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="dbb6d1687ea74318b9f510634282780d" Bounds="450 73 71 14" Id="2525cd42955a4f4184ee42a5dd5979b8" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Pin &lt;Pin In&gt;</p.Text>
+			</NodeLabel>
+			<Wire Id="ad7301b6ce52478cab7df69da5d42532" Joints="N(10cf90b5c9804b0397885da7a11ab363:Value)|(420,95) N(dbb6d1687ea74318b9f510634282780d:Value)|(453,95)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="6f121d7c16dd4cedaf2cca5b3e44f25a" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="d40d4d90286d4eb0ad0bd5b3b4e91032" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@353748ac752f4b0cad7bb09320398f64" Id="2de99cb1cc65438e816490bcaa6cc5ec" Name="Pin In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="PicoGLib::Types::Pin.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@353748ac752f4b0cad7bb09320398f64" Id="582378105447429b8bbe678a5550228a" Name="Pin &lt;Pin In&gt;" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="PicoGLib::Types::Pin.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="353748ac752f4b0cad7bb09320398f64">
+			<Attributed AttributedType="@71c05a6153aa43cfb35af34caf0f1f3e">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]PicoGLib::Types" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="71c05a6153aa43cfb35af34caf0f1f3e">
+			<Typedef TypedefName="Pin.gtype" UnderlyingType="Int32" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

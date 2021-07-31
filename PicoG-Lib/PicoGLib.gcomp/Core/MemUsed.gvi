@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3407C09D5D6486AD22B97C2789BCCE088A62F8476D58CC999ACB67B13802C889E53E419E1B8714728B2EA8055FDC8E731996098553FF4CC30101E7D9E6887B1D" Timestamp="1D785CD4B6E2822" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="953f83bd340a4ec98201b6875583fc3f" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="dcaf35921ed34c6a9c2fcc28e76969eb" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="65a78f854c0c469e846b0c95b44f3b12" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="3ece98cf78f64b4f8dc931135161ec43" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="4b1ce5886ca0433caaf79d7c68f5dd3b" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff3ab878" Id="6bbd11d972dc443d8bedf3c0263011ae" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Text Foreground="[SMColor]#ff004a80" Height="[float]15" Id="674c850a12bc432d8dcb3e6ed59c35cc" Left="[float]10" Text="[string]MEM" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]20">
+					<FontSetting FontFamily="Consolas" FontSize="9" Id="67058b2119dc4dfea8f1851c97c0d20f" />
+				</Text>
+				<Path Data="[PathGeometry]M 6.62699986,5.50600004 C 7.62599993,6.50500011 8.625,7.50400019 9.6239996,8.50199986 L 15,3 L 15,7 L 11.4320002,10.3100004 C 14.3789997,13.2580004 16.5860004,15.4650002 19.5340004,18.4120007 C 20.6189995,19.4979992 19.6219997,21 18.4599991,21 C 18.1079998,21 17.7409992,20.8619995 17.4120007,20.5340004 C 14.3100004,17.4309998 12.1020002,15.1020002 9,12 L 6,15 L 6,12 L 7.37200022,10.493 C 6.46199989,9.58300018 5.90999985,8.90999985 5,8 L 4,9 L 0,9 L 3.15100002,6.27199984 C 3.02399993,6.14599991 2.898,6.01999998 2.77200007,5.89400005 C 1.68700004,4.80900002 2.68199992,3.31399989 3.84299994,3.31399989 C 4.06099987,3.31399989 4.28499985,3.3670001 4.50199986,3.4849999 L 8,0 L 11.7399998,0 L 6.62699986,5.50600004 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#ff004a80" Height="[float]21" Id="aa3782396d244700b0e745ba49e99a5e" Left="[float]10" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]15" Width="[float]20" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="8caa014567d34600bfc22314bd06de6f" ListViewHeight="55" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 35" Parameter="f83ca98ff2bb47449306ef10860053ad" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="fc9ce3e73dd849ebac2ea04c888c0f8b" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="a51665c6efad4d7ab8904f205f3ec28c" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a91e3cc0a2c4361b49780d8f215d562" Interval="[int]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]MemUsed" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=f83ca98ff2bb47449306ef10860053ad}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="39f2d6e691cf48a1842e4200e6bdcb1a">
+			<DataAccessor Bounds="500 195 40 15" DataItem="f83ca98ff2bb47449306ef10860053ad" Id="fcad4dcf5634d5d885e04ec158f7e2f" Label="661b9773be4846779a0cee1c8cc266b7" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="fcad4dcf5634d5d885e04ec158f7e2f" Bounds="545 195 54 14" Id="661b9773be4846779a0cee1c8cc266b7" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>MemUsed</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="a8618d80d9de4f5b9e4cd7d235dfa920" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="567f7dc44c19402fba7e5f44b9819560" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="Int32" Id="f83ca98ff2bb47449306ef10860053ad" Name="MemUsed" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
