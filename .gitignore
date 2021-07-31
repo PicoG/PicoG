@@ -16,3 +16,4 @@
 .lvlps
 .cache
 /Builds
+*.aliases
