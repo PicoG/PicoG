@@ -12,7 +12,7 @@
 .exe
 
 # Metadata
-.aliases
-.lvlps
 .cache
 /Builds
+*.aliases
+*.lvlps

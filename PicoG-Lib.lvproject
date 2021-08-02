@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FD00B4189ACBC880B7E3AAB87E0ACF2A8302C4D7BCBFA667FEC79B2FB09F6E9CB4D522C38B962FACD1BDDB888FA4731A92AE0E190CDCC025610D7A031948B687" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B43D186559591E6A39DFE127E38FA6D49C6116C179DA72E5070B98A4336164FFE13095A5206F9575C7B6763B9930149C72D2F8D52524AEB5ACF4D5BFD56FD58B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -35,24 +35,31 @@
 						<Instance Id="9c00b36ae1444a2caf33f336e70809d9" Source="{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent">
 							<Symbols p8:Path="[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent]Process.LibraryComponent" p9:Process.AliasName="PicoGLib.gcomp" p9:Process.AssociatedIdentifier="d81c40eea3ad46b383beabbed9be130e" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="31127568187247a296c56146fe755352" Source="{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent">
+							<Symbols p8:Path="[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent" p9:ShowInDiagram="True" p10:Process.AliasName="Sweep.gcomp" p10:Process.AssociatedIdentifier="87ab666f78e44c63b77bc2d8018cb439" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="a19ee44cbc3c4403a6dcafc557602fe8" Name="Root Superimposition">
 							<Superimpose Source="2093a086110a4b5e86729643e4d1876a" />
 							<Superimpose Source="6e8aaabc49b34578bd2f14dccf139042">
 								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="dcebc4842e6e4709a6a7e1953a011e54" />
 								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="9c00b36ae1444a2caf33f336e70809d9" />
+								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="31127568187247a296c56146fe755352" />
 							</Superimpose>
 						</Superimposition>
 					</MappingManager>
 				</EnvoySuperimpositionContainer>
 				<SystemDiagramRootDiagram Id="b4461a27114b5c8db06bc730d5037b">
-					<SystemHardware Bounds="135 80 315 215" Facade="PartsView" HasLayoutManager="True" Id="e1e78a245f24a57811fa6d4967d0316" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice">
-						<SystemHardwareGroupDiagram Bounds="0 65 315 135" Id="5d18e04d103c4535ad3c475dfc5d1c48">
-							<SystemHardware Bounds="2 0 311 135" Facade="PartsView" Id="5d0676f0afe4243843e00484b7fca01" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule">
-								<SystemHardwareGroupDiagram Bounds="0 35 311 87" GroupName="Software" GroupUniqueId="Software" Id="d7dc102437e44d3c9c7b6ae4221ef92d">
+					<SystemHardware Bounds="135 80 315 240" Facade="PartsView" HasLayoutManager="True" Id="e1e78a245f24a57811fa6d4967d0316" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice">
+						<SystemHardwareGroupDiagram Bounds="0 65 315 160" Id="5d18e04d103c4535ad3c475dfc5d1c48">
+							<SystemHardware Bounds="2 0 311 160" Facade="PartsView" Id="5d0676f0afe4243843e00484b7fca01" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule">
+								<SystemHardwareGroupDiagram Bounds="0 35 311 112" GroupName="Software" GroupUniqueId="Software" Id="d7dc102437e44d3c9c7b6ae4221ef92d">
 									<SystemHardware Bounds="5 15 301 25" Facade="PartsViewLeaf" Id="cfc185cecfe44badb489959402e24b7d" MainLabel="$aliasName" SystemModelContent="{:/dcebc4842e6e4709a6a7e1953a011e54}[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent">
 										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 									</SystemHardware>
 									<SystemHardware Bounds="5 40 301 25" Facade="PartsViewLeaf" Id="935da58bb1d542a1b8d40018c3fb158c" MainLabel="$aliasName" SystemModelContent="{:/9c00b36ae1444a2caf33f336e70809d9}[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent]Process.LibraryComponent">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="5 65 301 25" Facade="PartsViewLeaf" Id="a2164ba86e0b4a47882fa5f10781a7fb" MainLabel="$aliasName" SystemModelContent="{:/31127568187247a296c56146fe755352}[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent">
 										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 									</SystemHardware>
 								</SystemHardwareGroupDiagram>
@@ -168,6 +175,7 @@
 						<WeakDefaultComponentConfigurationReference Id="ba48ad2b507e4522aacb90b28d017171" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="8f0ca596a68442f3a5e54fbfd6184142" Target="PicoGLib.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="f68c2d071b7f4c60a8bf27a523ffeb82" Target="HelloBlink.gcomp::Configuration1" />
+						<ComponentConfigurationReferenceDependencySource Id="89914cd75d934c0087887ce74879ee7b" Target="Sweep.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="866f16a9bdab48b8a04903980d725380" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -216,6 +224,7 @@
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="95dbf0d8f97d49bf893f8f943d24233e" ModelDefinitionType="ComponentDefinition" Name="PicoGLib.gcomp" StoragePath="PicoG-Lib\PicoGLib.gcomp\PicoGLib.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="9fc5654f1be643de9388da5af72741e2" ModelDefinitionType="ComponentDefinition" Name="HelloBlink.gcomp" StoragePath="PicoG-Lib\Examples\HelloBlink.gcomp\HelloBlink.gcomp" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="3d64cbd425d74a37bf97908e2083087c" ModelDefinitionType="ComponentDefinition" Name="Sweep.gcomp" StoragePath="PicoG-Lib\Examples\Sweep.gcomp\Sweep.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 			<NameScopingEnvoy Bindings="AnyTarget,ContentKind_{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}Process.VireoTarget,HtmlPanel,VIAEnvironment,VireoBrowserTarget,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="6a8d792e247845ce86449c9b779d4e62" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="Web Server">
@@ -321,6 +330,7 @@
 						<WeakDefaultComponentConfigurationReference Id="8e9dd34ac494ead89dd6ca3c9bcb2ea" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="a64a1ce0a9e340a4a98216c32c27f331" Target="HelloBlink.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="56def62ec239470c957d18223d1f23cf" Target="PicoGLib.gcomp::Configuration1" />
+						<ComponentConfigurationReferenceDependencySource Id="bbd51cc1b8ab4daa826b63bd53c4fcbe" Target="Sweep.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="3cea780176d44eeb949de2d063a7aba6" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -349,6 +359,7 @@
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="abb9f6a86c914b40914675c3e33f89a6" ModelDefinitionType="ComponentDefinition" Name="HelloBlink.gcomp" StoragePath="PicoG-Lib\Examples\HelloBlink.gcomp\HelloBlink.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="d81c40eea3ad46b383beabbed9be130e" ModelDefinitionType="ComponentDefinition" Name="PicoGLib.gcomp" StoragePath="PicoG-Lib\PicoGLib.gcomp\PicoGLib.gcomp" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="87ab666f78e44c63b77bc2d8018cb439" ModelDefinitionType="ComponentDefinition" Name="Sweep.gcomp" StoragePath="PicoG-Lib\Examples\Sweep.gcomp\Sweep.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>

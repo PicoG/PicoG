@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0FF76306C5DB64B0DADB5137A9B3881E679C2A5660A0C83D7CC017A03EB3AECEA23A9B1B82838A15B8C3D1B6AE1E160B49EE7C9FCDBD1B4746D7AE69657E3D1E" Timestamp="1D787060044ACEB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="7e928a4ae3694a9ebf6d6c5105dce11a" RootNamespaceId="2e9213963e10478b93d2559f1db1467f" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="39f258bd2d664352b76ba5cab6b0eeb9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="f84551f54840437bbc05c7ef4856c1f2" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="1674c0deb9c24a158cfac5007646e0a8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5309cede35a947dd861b72401bc84437" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="e9d19ff74004476c95f40d5af397eadb" Name="Configuration1">
+			<CompilerSymbolTable Id="dd813f8ea5fb4e69bedb397d6d4d7a04" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="1855e0b8190a40c2a41e14280c7be551" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="66f42acda9944cee83ccd23528860d6b" Id="85b668d8e30843e6911c5995caed44f8" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="82daf29b5cc74a2982e34fcca46a3a65" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7f679f405ba1469dbbdb82ebda3aebcf" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="23d3071842c94689b1a451d375dd5fa8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2e9213963e10478b93d2559f1db1467f" Name="Sweep">
+				<SourceFileReference Id="66f42acda9944cee83ccd23528860d6b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sweep.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sweep.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="ece9dcebd98c45378f8992b801e20b19" Name="Sweep.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="e9d19ff74004476c95f40d5af397eadb" Id="e743d623d8994e4fb35e1e1fa37945ab" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
