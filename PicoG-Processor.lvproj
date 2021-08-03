@@ -20,6 +20,18 @@
 				<Item Name="TargetPluginManager.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/TargetPluginManager/TargetPluginManager.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="images" Type="Folder">
+			<Item Name="G-16x16.ico" Type="Document" URL="../images/G-16x16.ico"/>
+			<Item Name="G-16x16.png" Type="Document" URL="../images/G-16x16.png"/>
+			<Item Name="G-94x112.png" Type="Document" URL="../images/G-94x112.png"/>
+			<Item Name="G-128x128.png" Type="Document" URL="../images/G-128x128.png"/>
+			<Item Name="G-w-bg-16x16.ico" Type="Document" URL="../images/G-w-bg-16x16.ico"/>
+			<Item Name="G-w-bg-16x16.png" Type="Document" URL="../images/G-w-bg-16x16.png"/>
+			<Item Name="simple-logo-96x35.png" Type="Document" URL="../images/simple-logo-96x35.png"/>
+			<Item Name="simple-logo-389x141.png" Type="Document" URL="../images/simple-logo-389x141.png"/>
+			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../images/simple-logo-w-bg-96x35.png"/>
+			<Item Name="simple-logo-w-bg-389x141.png" Type="Document" URL="../images/simple-logo-w-bg-389x141.png"/>
+		</Item>
 		<Item Name="minivia.vi" Type="VI" URL="../PicoG-Processor/minivia.vi"/>
 		<Item Name="PicoG-Processor.lvlib" Type="Library" URL="../PicoG-Processor/PicoG-Processor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -100,10 +112,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E3094B0E-AC78-4AE2-B0DF-1F2DCA1EC204}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">picoG Watcher.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/picoG Watcher.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">picoG Deploy.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/picoG Deploy.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -111,7 +123,8 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6E114925-6351-4A9E-8DED-8E39B2E9AF91}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/G-w-bg-16x16.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEA4FCD5-B38B-46F9-B5D9-FAB2EB67A546}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PicoG-Processor.lvlib/Main.vi</Property>
@@ -124,7 +137,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">picoG Watcher</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DE2A5CEB-B756-4DDE-BF5A-1F4F3CB6EB60}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">picoG Watcher.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">picoG Deploy.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
