@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution Version="1.1">
+
+  <Version Build="0" Major="0" Minor="1" Patch="0"/>
+
+  <Config Name="Debug"/>
+
+  <Config Name="Release"/>
+
+  <Item ID="3A50CBD3-C93D-4C9B-9508-7760067B" Type="Project" Version="1.1">
+    <Info Path="..\PicoG-Core.lvproj" X64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="PicoG-Core" Target="My Computer"/>
+      </Config>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+  <Item ID="4C66DF4A-B749-4F2B-81E5-BD6ACFA3" Type="Project" Version="1.1">
+    <Info Path="..\PicoG-Processor.lvproj" X64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="picoG Watcher" Target="My Computer"/>
+      </Config>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+  <Item ID="A9C390AB-4BE9-417B-BAA4-59EA1995" Type="Project" Version="1.1">
+    <Info Path="..\Platform-RP2040.lvproj" X64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="RP2040 PPL" Target="My Computer"/>
+      </Config>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+</Solution>

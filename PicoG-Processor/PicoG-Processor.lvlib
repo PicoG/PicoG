@@ -12,6 +12,7 @@
 </Property>
 	<Item Name="ArrayPanels" Type="Folder">
 		<Item Name="WebProjectPanel.lvclass" Type="LVClass" URL="../WebProjectPanel/WebProjectPanel.lvclass"/>
+		<Item Name="Sorted Updated Time Descending.vi" Type="VI" URL="../Sorted Updated Time Descending.vi"/>
 	</Item>
 	<Item Name="Callback Type" Type="Folder">
 		<Item Name="Animation Done Callback VI Type.vi" Type="VI" URL="../Animation Done Callback VI Type.vi"/>

@@ -121,13 +121,13 @@
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Desired Size</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 			<Item Name="Get Desired Size.vi" Type="VI" URL="../Get Desired Size.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!($!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!N!"Q!&amp;6WFE&gt;'A!$5!(!!:):7FH;(1!!&amp;9!]1!!!!!!!!!$$5^05'&amp;O:7QO&lt;(:M;7)318*S98F197ZF&lt;#ZM&gt;G.M98.T%%2F=WFS:71A5WF[:3ZD&gt;'Q!(%"1!!)!"1!'$%2F=WFS:71A5WF[:1!!4%"Q!"Y!!#]65'FD&lt;U=N5(*P9W6T=W^S,GRW&lt;'FC&amp;V&gt;F9F"S&lt;WJF9X2197ZF&lt;#ZM&gt;G.M98.T!".8:7*1=G^K:7.U5'&amp;O:7QA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!4%"Q!"Y!!#]65'FD&lt;U=N5(*P9W6T=W^S,GRW&lt;'FC&amp;V&gt;F9F"S&lt;WJF9X2197ZF&lt;#ZM&gt;G.M98.T!"*8:7*1=G^K:7.U5'&amp;O:7QA;7Y!!&amp;1!]!!-!!-!"!!(!!A!"!!%!!1!"!!*!!1!"!!+!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Q!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!N!"Q!&amp;6WFE&gt;'A!$5!(!!:):7FH;(1!!%-!]1!!!!!!!!!#$5^05'&amp;O:7QO&lt;(:M;7)12'6T;8*F:#"4;8JF,G.U&lt;!!=1&amp;!!!A!&amp;!!9-2'6T;8*F:#"4;8JF!!"-1(!!(A!!,R61;7.P2SV1=G^D:8.T&lt;X)O&lt;(:M;7)86W6C5(*P;G6D&gt;&amp;"B&lt;G6M,GRW9WRB=X-!%V&gt;F9F"S&lt;WJF9X2197ZF&lt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"-1(!!(A!!,R61;7.P2SV1=G^D:8.T&lt;X)O&lt;(:M;7)86W6C5(*P;G6D&gt;&amp;"B&lt;G6M,GRW9WRB=X-!%F&gt;F9F"S&lt;WJF9X2197ZF&lt;#"J&lt;A!!6!$Q!!Q!!Q!%!!=!#!!%!!1!"!!%!!E!"!!%!!I#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!,!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			</Item>
 		</Item>
 		<Item Name="Last Update" Type="Property Definition">

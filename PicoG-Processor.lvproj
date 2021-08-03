@@ -32,6 +32,7 @@
 			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../images/simple-logo-w-bg-96x35.png"/>
 			<Item Name="simple-logo-w-bg-389x141.png" Type="Document" URL="../images/simple-logo-w-bg-389x141.png"/>
 		</Item>
+		<Item Name="Main Menu.rtm" Type="Document" URL="../PicoG-Processor/GVIWebProcessorApp/Main Menu.rtm"/>
 		<Item Name="minivia.vi" Type="VI" URL="../PicoG-Processor/minivia.vi"/>
 		<Item Name="PicoG-Processor.lvlib" Type="Library" URL="../PicoG-Processor/PicoG-Processor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -112,8 +113,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E3094B0E-AC78-4AE2-B0DF-1F2DCA1EC204}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">0</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">picoG Deploy.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/picoG Deploy.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -132,6 +135,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">picoG Watcher</Property>
 				<Property Name="TgtF_internalName" Type="Str">picoG Watcher</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 NI</Property>
