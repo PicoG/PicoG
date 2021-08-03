@@ -1,7 +1,5 @@
 # PicoG Desktop
 
-PicoG﹤LabVIEW﹤PicoG
-
 This repo contains the sources for **PicoG Desktop** that's used to facilitate building and deploying LabVIEW code (e.g. NXG WebVIs) to devices like the Raspberry Pi Pico (RP2040).
 
 Includes:
