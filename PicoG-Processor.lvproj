@@ -115,8 +115,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E3094B0E-AC78-4AE2-B0DF-1F2DCA1EC204}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">0</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">picoG.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/picoG.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
