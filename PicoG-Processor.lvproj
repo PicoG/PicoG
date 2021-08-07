@@ -29,6 +29,7 @@
 			<Item Name="G-w-bg-16x16.png" Type="Document" URL="../images/G-w-bg-16x16.png"/>
 			<Item Name="Gbird-16-outline.ico" Type="Document" URL="../images/Gbird-16-outline.ico"/>
 			<Item Name="Gbird-16.ico" Type="Document" URL="../images/Gbird-16.ico"/>
+			<Item Name="pico_symbol_green_on_transparent_icon.ico" Type="Document" URL="../images/pico_symbol_green_on_transparent_icon.ico"/>
 			<Item Name="simple-logo-96x35.png" Type="Document" URL="../images/simple-logo-96x35.png"/>
 			<Item Name="simple-logo-389x141.png" Type="Document" URL="../images/simple-logo-389x141.png"/>
 			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../images/simple-logo-w-bg-96x35.png"/>
@@ -128,8 +129,8 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/Gbird-16.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2F33128C-2C81-469B-8035-759E09022D6E}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/pico_symbol_green_on_transparent_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FC74B263-FA09-44DD-AEFC-161DCAE06561}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PicoG-Processor.lvlib/Main.vi</Property>
@@ -137,7 +138,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">picoG Watcher</Property>
 				<Property Name="TgtF_internalName" Type="Str">picoG Watcher</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 NI</Property>
