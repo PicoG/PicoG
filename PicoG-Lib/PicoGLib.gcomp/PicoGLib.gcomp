@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C98FD765FEDF5440996DBC6EB9AB995EC2C2CCF3FB05B06A31BB7C99C26E27736BC0C043BACAF187D04E08424A8A5D817AE192656E8BEEF80D89D3313134D219" Timestamp="1D785C2CFE752E6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7F7DD44E22F83C9754C084548B6A21E783E8AEB0F1257975E53CFFEC62735BD39380446F8F0B2458C3061B745B9AF272EF806764AAE3892F2CA5A4AEDA86BC83" Timestamp="1D78B389EACC37E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1d933032159b40d393484c59979179e9" RootNamespaceId="9e48b330d56b47f18fe71369fe7c94a1" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition Company="picoG" DefaultConfigurationName="Configuration1" Id="1d933032159b40d393484c59979179e9" Product="picoG" RootNamespaceId="9e48b330d56b47f18fe71369fe7c94a1" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="cf3c7bce39b846c28f7699dfeca08e9c" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="16f6edefdfbd475ea5fbcf583d8e2e0f" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="d40b6166e76c433eabee1a92a8923d10" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
 		<CompilerSymbolTable Id="9a0d398b671c4d81a8478514c1606f5e" xmlns="http://www.ni.com/PlatformFramework" />
-		<ComponentConfiguration Id="bb08efc4203f44c4a3f9237d9a59d901" Name="Configuration1">
+		<ComponentConfiguration AssociatedPalettes="2db8b8a5c7bd4533aff18019357d3e99" Id="bb08efc4203f44c4a3f9237d9a59d901" Name="Configuration1">
 			<CompilerSymbolTable Id="9cee604a244340d3940222d2c1abe968" xmlns="http://www.ni.com/PlatformFramework" />
 			<GLibraryProperties Id="63d886df99454b858e3e6160c9b800a8" />
 			<ComponentItemProperties AssociatedEnvoyId="a5639c470227473da0d35fe75fbc0db0" Exported="True" Id="e84d1b309d84ae996cc32f93dfc9320" />
@@ -44,6 +44,7 @@
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="5b5b476b350d49f7ab6821b489bea14d" Name="Types">
 					<SourceFileReference Bindings="EnvoyManager" Id="7b9788cb420b429cb8f6f418e1176a8b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Pin.gtype" StoragePath="Types\Pin.gtype\Pin.gtype" />
 				</NameScopingEnvoy>
+				<SourceFileReference Bindings="VireoBrowserTarget" Id="2db8b8a5c7bd4533aff18019357d3e99" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="PicoGLib.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="PicoGLib.gpal" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="be4908b3b9f449dbb39c5f460feb35c4" Name="PicoGLib.gcomp" NameTracksFileName="True">

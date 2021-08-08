@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="438A698E6AA19EF8187381634929EA166385E68B77E8A5A4D06E40A75ABA27600E7C260BFCA624743B866A58A4CE497BA0397F6A16A48E6758064CA0E74E453D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E51CD2ECC4AEA5D80BB083FEAFF4BCF6535D6DD4458A240EA7536C2A9D608C7960FF320FBCEEAFB510C72CFC8DC7C17299E0DD933BC08B1CE8DACF3E7562D1F4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -38,21 +38,25 @@
 						<Instance Id="74c383e0f6c64a06829130fd632ad649" Source="{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent">
 							<Symbols p8:Path="[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent" p9:ShowInDiagram="True" p10:Process.AliasName="Sweep.gcomp" p10:Process.AssociatedIdentifier="f750e38c79b04574a8be8eba7940bb8f" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="e703e89199564c52b628542a600c5003" Source="{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent">
+							<Symbols p8:Path="[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent" p9:ShowInDiagram="True" p10:Process.AliasName="Queue.gcomp" p10:Process.AssociatedIdentifier="64933c04574e41efa0a4255f5c35d7e5" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="a19ee44cbc3c4403a6dcafc557602fe8" Name="Root Superimposition">
 							<Superimpose Source="2093a086110a4b5e86729643e4d1876a" />
 							<Superimpose Source="6e8aaabc49b34578bd2f14dccf139042">
 								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="dcebc4842e6e4709a6a7e1953a011e54" />
 								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="9c00b36ae1444a2caf33f336e70809d9" />
 								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="74c383e0f6c64a06829130fd632ad649" />
+								<Superimpose Parent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="e703e89199564c52b628542a600c5003" />
 							</Superimpose>
 						</Superimposition>
 					</MappingManager>
 				</EnvoySuperimpositionContainer>
 				<SystemDiagramRootDiagram Id="b4461a27114b5c8db06bc730d5037b">
-					<SystemHardware Bounds="135 80 315 240" Facade="PartsView" HasLayoutManager="True" Id="e1e78a245f24a57811fa6d4967d0316" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice">
-						<SystemHardwareGroupDiagram Bounds="0 65 315 160" Id="5d18e04d103c4535ad3c475dfc5d1c48">
-							<SystemHardware Bounds="2 0 311 160" Facade="PartsView" Id="5d0676f0afe4243843e00484b7fca01" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule">
-								<SystemHardwareGroupDiagram Bounds="0 35 311 112" GroupName="Software" GroupUniqueId="Software" Id="d7dc102437e44d3c9c7b6ae4221ef92d">
+					<SystemHardware Bounds="135 80 315 265" Facade="PartsView" HasLayoutManager="True" Id="e1e78a245f24a57811fa6d4967d0316" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice">
+						<SystemHardwareGroupDiagram Bounds="0 65 315 185" Id="5d18e04d103c4535ad3c475dfc5d1c48">
+							<SystemHardware Bounds="2 0 311 185" Facade="PartsView" Id="5d0676f0afe4243843e00484b7fca01" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/6e8aaabc49b34578bd2f14dccf139042}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule">
+								<SystemHardwareGroupDiagram Bounds="0 35 311 137" GroupName="Software" GroupUniqueId="Software" Id="d7dc102437e44d3c9c7b6ae4221ef92d">
 									<SystemHardware Bounds="5 15 301 25" Facade="PartsViewLeaf" Id="cfc185cecfe44badb489959402e24b7d" MainLabel="$aliasName" SystemModelContent="{:/dcebc4842e6e4709a6a7e1953a011e54}[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent">
 										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 									</SystemHardware>
@@ -60,6 +64,9 @@
 										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 									</SystemHardware>
 									<SystemHardware Bounds="5 65 301 25" Facade="PartsViewLeaf" Id="5a0c56dc6f0c4e8da92fc3ba01cdaa08" MainLabel="$aliasName" SystemModelContent="{:/74c383e0f6c64a06829130fd632ad649}[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="5 90 301 25" Facade="PartsViewLeaf" Id="bd5ca108cb5b45b6869ffab856407fe7" MainLabel="$aliasName" SystemModelContent="{:/e703e89199564c52b628542a600c5003}[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent">
 										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 									</SystemHardware>
 								</SystemHardwareGroupDiagram>
@@ -166,16 +173,17 @@
 						<WeakDefaultComponentConfigurationReference Id="b86e7a50ba084b46970a38ba658a73a3" PackageName="ni-g-stdlib-src-1.0.6.45.niaddon" Target="NI.G Core.Network Streams.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="4cdab0c5a677444fbf3da65d2730fc2a" PackageName="ni-nativetarget-nativetargetlib-src-4.0.0.0.niaddon" Target="NI.NativeTarget.Template.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="14fd1edf3c4d4fb5a54f0ab27dac9a96" PackageName="ni-skyline-configuration-src-20.5.0.niaddon" Target="NI.SL.Configuration.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="ddf32bb801be46d4b3f414fe9602f23d" PackageName="ni-skyline-file-src-20.0.0.niaddon" Target="NI.SL.File.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="71989707057045f3bd0194811e3a6be7" PackageName="ni-skyline-json-src-20.5.0.niaddon" Target="NI.SL.JSON.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="e1191e8504cb4c7083737a4c68023b92" PackageName="ni-skyline-messagehttp-src-20.5.0.niaddon" Target="NI.SL.Message.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="6c24b3e971e94320990275ebc6f2c66e" PackageName="ni-skyline-taghttp-src-20.5.0.niaddon" Target="NI.SL.Tag.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="69a969971691494d921cd890e2032a8a" PackageName="ni-skyline-tdmreader-src-20.0.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="10ecb931404e4c6ea32c667cb77604d5" PackageName="ni-skyline-utilities-src-20.5.0.niaddon" Target="NI.SL.Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="ba48ad2b507e4522aacb90b28d017171" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="8f0ca596a68442f3a5e54fbfd6184142" Target="PicoGLib.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="f68c2d071b7f4c60a8bf27a523ffeb82" Target="HelloBlink.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="fdcca8c5b03e4aa1994691bb3e949240" Target="Sweep.gcomp::Configuration1" />
+						<WeakDefaultComponentConfigurationReference Id="235310cc44334c968ed00b0c36cf4c02" PackageName="ni-skyline-tdmreader-src-20.5.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="c776506323d74cd18beb73c3aeb3d009" PackageName="ni-skyline-file-src-20.5.0.niaddon" Target="NI.SL.File.gcomp" />
+						<ComponentConfigurationReferenceDependencySource Id="5aa996e70f23485aba62980af04116fa" Target="Queue.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="866f16a9bdab48b8a04903980d725380" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -194,13 +202,13 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="978dc6e8c02c420296c17884354713a9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="605aa19bb53846b5b437852622b353bd" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-nativetarget-nativetargetlib-src-4.0.0.0.niaddon" StoragePath="ref://NI/nativetarget/nativetargetlib-src/4.0.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="7cd4024e7e4e44f78c8583c6d716be1a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-configuration-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/configuration-src/20.5.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="b85104ab00984c5e9eccc0e2f364e12c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="13ff90296753495683bdd402e85e49e3" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-json-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/json-src/20.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="13612934c7a84f39b5ac4ad789558795" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-messagehttp-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/messageHTTP-src/20.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="9e3f61d833974a5eacd55d36e4ce43ec" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/20.5.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="52721bf99a7f4d21948e695be5d109f7" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="8d86c7507aa745348c8bcc6f8eb0f1a9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="2420d1aafdb349d7a1ea7c9c39906c00" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="b745f3e5156f46d4a55ee561a752d905" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="9ff56e793f1d4d79857516ea2fbb6ec8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.5.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ComponentMoC" Id="81384821e52c4c7bb5d65e200461c5a1" ModelDefinitionType="ComponentDefinition" Name="Default Component">
 						<ComponentDefinition DefaultConfigurationName="Default" Id="bbefc1f104f6428b99c7568aeabe5322" RootNamespaceId="81384821e52c4c7bb5d65e200461c5a1" xmlns="http://www.ni.com/GComponent.xsd">
@@ -225,6 +233,7 @@
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="95dbf0d8f97d49bf893f8f943d24233e" ModelDefinitionType="ComponentDefinition" Name="PicoGLib.gcomp" StoragePath="PicoG-Lib\PicoGLib.gcomp\PicoGLib.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="9fc5654f1be643de9388da5af72741e2" ModelDefinitionType="ComponentDefinition" Name="HelloBlink.gcomp" StoragePath="PicoG-Lib\Examples\HelloBlink.gcomp\HelloBlink.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="ad93226f4c7a4a09a8a39e4225f4681f" ModelDefinitionType="ComponentDefinition" Name="Sweep.gcomp" StoragePath="PicoG-Lib\Examples\Sweep.gcomp\Sweep.gcomp" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="d0f0c4782a148cfbb96d31dee7fb24d" ModelDefinitionType="ComponentDefinition" Name="Queue.gcomp" StoragePath="PicoG-Lib\Examples\Queue.gcomp\Queue.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 			<NameScopingEnvoy Bindings="AnyTarget,ContentKind_{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}Process.VireoTarget,HtmlPanel,VIAEnvironment,VireoBrowserTarget,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="6a8d792e247845ce86449c9b779d4e62" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="Web Server">
@@ -321,16 +330,17 @@
 						<WeakDefaultComponentConfigurationReference Id="a6a2b91305f44c33857e1a939cdc34e5" PackageName="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" Target="Keysight344XX.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="7ae32915425f4a8b82cf9325ddb3439f" PackageName="ni-nativetarget-nativetargetlib-src-4.0.0.0.niaddon" Target="NI.NativeTarget.Template.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="baea07e020ba4c49be565778bb061b88" PackageName="ni-skyline-configuration-src-20.5.0.niaddon" Target="NI.SL.Configuration.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="87ab89aee7d042b898e601704d173710" PackageName="ni-skyline-file-src-20.0.0.niaddon" Target="NI.SL.File.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="7950582df3fd48c592c7c97fe5e769b4" PackageName="ni-skyline-json-src-20.5.0.niaddon" Target="NI.SL.JSON.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="170d5394bf3a492aa139ce17ba3a9a91" PackageName="ni-skyline-messagehttp-src-20.5.0.niaddon" Target="NI.SL.Message.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="e2cdf7cc7abf475fad5b02a81259efd9" PackageName="ni-skyline-taghttp-src-20.5.0.niaddon" Target="NI.SL.Tag.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="57a8dde0f3c4b39ac149dcb86647d66" PackageName="ni-skyline-tdmreader-src-20.0.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="2a00147301054063922e19fa6e32cd05" PackageName="ni-skyline-utilities-src-20.5.0.niaddon" Target="NI.SL.Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="8e9dd34ac494ead89dd6ca3c9bcb2ea" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="a64a1ce0a9e340a4a98216c32c27f331" Target="HelloBlink.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="56def62ec239470c957d18223d1f23cf" Target="PicoGLib.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="b65270899fdc4d05b7cb500c4813d09f" Target="Sweep.gcomp::Configuration1" />
+						<WeakDefaultComponentConfigurationReference Id="53cc2beaa23a4c5b983be1931285e6b8" PackageName="ni-skyline-tdmreader-src-20.5.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="7b6c7f49159c4fa39431973fb2fb940f" PackageName="ni-skyline-file-src-20.5.0.niaddon" Target="NI.SL.File.gcomp" />
+						<ComponentConfigurationReferenceDependencySource Id="54317db2a4954977aa116031f8123e3d" Target="Queue.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="3cea780176d44eeb949de2d063a7aba6" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -349,17 +359,18 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="10626139737f4311b1668bd3212f4adb" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="5dffc2ca5fda4460b11128e71558b474" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-nativetarget-nativetargetlib-src-4.0.0.0.niaddon" StoragePath="ref://NI/nativetarget/nativetargetlib-src/4.0.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="3a566debb90a400a9f79297a8f66e676" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-configuration-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/configuration-src/20.5.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="5aaf91a8a6f949c491a73c7c43e17637" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="117e3de04e844b849632953012a37d75" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-json-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/json-src/20.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="7fd97bb566e44296b64af1729187386c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-messagehttp-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/messageHTTP-src/20.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="6c1ba0b55ed94271ad1886b6c1822cd9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/20.5.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="53da2ec75de647bfa52dd73f41b66557" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="1735ca4961cd409db67820e963e4f404" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="9555dbe72fee4db38fa4f8e5a80c9213" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="20cc3f21650b431dbdd89374dfff1e8b" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="45a965ef011d4391a6eea31203ee3244" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.5.0" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="abb9f6a86c914b40914675c3e33f89a6" ModelDefinitionType="ComponentDefinition" Name="HelloBlink.gcomp" StoragePath="PicoG-Lib\Examples\HelloBlink.gcomp\HelloBlink.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="d81c40eea3ad46b383beabbed9be130e" ModelDefinitionType="ComponentDefinition" Name="PicoGLib.gcomp" StoragePath="PicoG-Lib\PicoGLib.gcomp\PicoGLib.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="f750e38c79b04574a8be8eba7940bb8f" ModelDefinitionType="ComponentDefinition" Name="Sweep.gcomp" StoragePath="PicoG-Lib\Examples\Sweep.gcomp\Sweep.gcomp" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="64933c04574e41efa0a4255f5c35d7e5" ModelDefinitionType="ComponentDefinition" Name="Queue.gcomp" StoragePath="PicoG-Lib\Examples\Queue.gcomp\Queue.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
@@ -382,13 +393,13 @@
 					<PackageInterfaceDefinitionContents Contents="NI.G Core.Configuration File (INI).gcomp,NI.G Core.Data Type.gcomp,NI.G Core.File IO (General).gcomp,NI.G Core.Input Devices.gcomp,NI.G Core.Numeric.gcomp,NI.G Core.Operating System.gcomp,NI.G Core.Registry.gcomp,NI.G Core.Rendezvous.gcomp,NI.G Core.Semaphore.gcomp,NI.G Core.SMTP Email.gcomp,NI.G Core.Sound.gcomp,NI.G Core.Strings.gcomp,NI.G Core.TCP.gcomp,NI.G Core.TDMS.gcomp,NI.G Core.Timed Loop.gcomp,NI.G Core.Timing.gcomp,NI.G Core.URL.gcomp,NI.G Core.Waveform.gcomp,NI.G Core.Zip.gcomp,NI.G Core.User Interface.gcomp,NI.G Core.Data Communications.gcomp,NI.G Core.Execution Control.gcomp,NI.G Core.gcomp,NI.G Core.Color Picker.gcomp,NI.G Core.Libraries and Executables.gcomp,NI.G Core.Shared Variable.gcomp,NI.G Core.Network Streams.gcomp" Id="b245c8846118480c895983f36234ee63" PackageInterfaceDefinitionEnvoyId="112a9a939bab492f87a842c56bec29ee" />
 					<PackageInterfaceDefinitionContents Contents="NI.NativeTarget.Template.gcomp" Id="d39ab48094c648bcb78bec0a6a3970e8" PackageInterfaceDefinitionEnvoyId="d8b3042f4b2548638b29be4b2f9dafb8" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Configuration.gcomp" Id="9fd2aa44542c438f83957622a54d256e" PackageInterfaceDefinitionEnvoyId="9efc80da81974f998f4c1108e5b37162" />
-					<PackageInterfaceDefinitionContents Contents="NI.SL.File.gcomp" Id="a8057c342db448c5ba627b5ea4a29285" PackageInterfaceDefinitionEnvoyId="5753bb492a54494a41aa0fa4087ee33" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.JSON.gcomp" Id="884766cd4a5f4d8fac92997be59d8a33" PackageInterfaceDefinitionEnvoyId="b1403a84dac44a48aa6dde28c9b9e7b4" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Message.gcomp" Id="7cdeba3885d04db09be124dcf3e27fa1" PackageInterfaceDefinitionEnvoyId="94d623d88986439aa8a0c6aa95b32d5a" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Tag.gcomp" Id="4866d998e7774379a5d6a7234e6e381d" PackageInterfaceDefinitionEnvoyId="c6151d4b15594bdb8ed49e1c64a9fa65" />
-					<PackageInterfaceDefinitionContents Contents="NI.SL.TDMReader.gcomp" Id="3f1665bc4a454d5da77db0e3578c8745" PackageInterfaceDefinitionEnvoyId="56faa462458145ef9fc93c77f677075a" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Utilities.gcomp" Id="30b2724b83cb402c8d86ec4a8d195e18" PackageInterfaceDefinitionEnvoyId="c9f1417588484afbb70748daa00f0f4d" />
 					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="dbe58122f8df47f0b2c56057ea4f22ad" PackageInterfaceDefinitionEnvoyId="717bbd6861634858b71ce94b97becf14" />
+					<PackageInterfaceDefinitionContents Contents="NI.SL.TDMReader.gcomp" Id="6b103a4e4b834d63bbbd59d20620579b" PackageInterfaceDefinitionEnvoyId="6b11ee037ebc41ef9705210ffb8b001c" />
+					<PackageInterfaceDefinitionContents Contents="NI.SL.File.gcomp" Id="6a32f03a774d442a9181e82422660f23" PackageInterfaceDefinitionEnvoyId="80609d35395f4f30b363c08c96d71fe9" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="564369d192b845f28270b6782c2b9621" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-actorframework-aflib-src-1.0.1.0.niaddon" StoragePath="ref://NI/ActorFramework/aflib-src/1.0.1.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="11009695ebd6474598a40bd16d173c08" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-advanced-src-1.0.8.5.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.8.5" />
@@ -405,14 +416,15 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="17bc7649c5264b56b8d42ef51b5717a1" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="d8b3042f4b2548638b29be4b2f9dafb8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-nativetarget-nativetargetlib-src-4.0.0.0.niaddon" StoragePath="ref://NI/nativetarget/nativetargetlib-src/4.0.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="9efc80da81974f998f4c1108e5b37162" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-configuration-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/configuration-src/20.5.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="5753bb492a54494a41aa0fa4087ee33" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="b1403a84dac44a48aa6dde28c9b9e7b4" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-json-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/json-src/20.5.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="94d623d88986439aa8a0c6aa95b32d5a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-messagehttp-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/messageHTTP-src/20.5.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="c6151d4b15594bdb8ed49e1c64a9fa65" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/20.5.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="56faa462458145ef9fc93c77f677075a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.0.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="c9f1417588484afbb70748daa00f0f4d" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.5.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="717bbd6861634858b71ce94b97becf14" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="80609d35395f4f30b363c08c96d71fe9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-file-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/file-src/20.5.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="6b11ee037ebc41ef9705210ffb8b001c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/20.5.0" />
 			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="18db0bab6e964bd9a65f5ec2900e5454" ModelDefinitionType="DistributionDefinition" Name="PicoG-Lib.lvdist" StoragePath="PicoG-Lib.lvdist" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="1b78767e09e64c0bbbdc3b2d37cffe18" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
 	</Project>

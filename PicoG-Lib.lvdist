@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="B3CC5C03A9823A08E7979E7C684CD611B88E2DDCD2FA697DB33E7363227855A46E81920897CA4749D8B4F370C15A1E2B90871467C3B4DE11DC00A6EF20332C68" Timestamp="1D78B3DE499F8FB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="picoG" Product="PicoG RPi Pico Library" ShortDescription="picoG Library for Raspberry Pi Pico (2040)" TargetedProduct="LabVIEW" Version="0.1.0.2" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="5e4c3cf42f1d4620b267b3d6b039a9c1" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="a98a26269fb4f00b275891e64ba2ac4" p3:CustomNipmPackageName="picog-rpi-pico-2040-lib" p3:DistributionCategory="Addon" p3:Homepage="https://www.picog.org" p3:MaintainerEmail="info@picog.org" p3:MaintainerName="picoG" p3:PackageDisplayName="picoG" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="a03fe3fc4c024761a3e0ab31ea73061c" Target="::DevSystem" />
+		<DistributionMemberDependencySource Id="91f8d5f10c3d48dfab7d2c0a3639c362" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Source" Target="::DevSystem::Interactive::PicoGLib.gcomp" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG" Id="73632ab5fff749d099dc217e8210fd8e" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0" Version="8.4.0.49153-0+f1" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG Web Module" Id="d9080977c98f4b35b047a61ddac7ec41" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0-web-module" Version="8.4.0.49154-0+f2" />
+	</DistributionDefinition>
+</SourceFile>
