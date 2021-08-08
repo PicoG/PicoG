@@ -10,8 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="minivia.vi" Type="VI" URL="../PicoG-Processor/minivia.vi"/>
-		<Item Name="RP2040.lvlib" Type="Library" URL="../PicoG-Processor/Platform/RP2040/RP2040.lvlib"/>
+		<Item Name="minivia.vi" Type="VI" URL="../../PicoG-Processor/minivia.vi"/>
+		<Item Name="RP2040.lvlib" Type="Library" URL="../../PicoG-Processor/Platform/RP2040/RP2040.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -25,13 +25,13 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="PicoG-Core.lvlibp" Type="LVLibp" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp">
-				<Item Name="DeployResource.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployResource/DeployResource.lvclass"/>
-				<Item Name="DeployTarget.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployTarget/DeployTarget.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="TargetPluginManager.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/TargetPluginManager/TargetPluginManager.lvclass"/>
+			<Item Name="PicoG-Core.lvlibp" Type="LVLibp" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp">
+				<Item Name="DeployResource.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployResource/DeployResource.lvclass"/>
+				<Item Name="DeployTarget.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployTarget/DeployTarget.lvclass"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="TargetPluginManager.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/TargetPluginManager/TargetPluginManager.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

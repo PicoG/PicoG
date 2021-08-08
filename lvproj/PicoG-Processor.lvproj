@@ -11,32 +11,32 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Core" Type="Folder">
-			<Item Name="PicoG-Core.lvlibp" Type="LVLibp" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp">
-				<Item Name="DeployResource.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployResource/DeployResource.lvclass"/>
-				<Item Name="DeployTarget.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployTarget/DeployTarget.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="TargetPluginManager.lvclass" Type="LVClass" URL="../Builds/picoG/ppl/PicoG-Core.lvlibp/TargetPluginManager/TargetPluginManager.lvclass"/>
+			<Item Name="PicoG-Core.lvlibp" Type="LVLibp" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp">
+				<Item Name="DeployResource.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployResource/DeployResource.lvclass"/>
+				<Item Name="DeployTarget.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployTarget/DeployTarget.lvclass"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="TargetPluginManager.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/TargetPluginManager/TargetPluginManager.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="images" Type="Folder">
-			<Item Name="G-16x16.ico" Type="Document" URL="../images/G-16x16.ico"/>
-			<Item Name="G-16x16.png" Type="Document" URL="../images/G-16x16.png"/>
-			<Item Name="G-94x112.png" Type="Document" URL="../images/G-94x112.png"/>
-			<Item Name="G-128x128.png" Type="Document" URL="../images/G-128x128.png"/>
-			<Item Name="G-w-bg-16x16.ico" Type="Document" URL="../images/G-w-bg-16x16.ico"/>
-			<Item Name="G-w-bg-16x16.png" Type="Document" URL="../images/G-w-bg-16x16.png"/>
-			<Item Name="Gbird-16-outline.ico" Type="Document" URL="../images/Gbird-16-outline.ico"/>
-			<Item Name="Gbird-16.ico" Type="Document" URL="../images/Gbird-16.ico"/>
-			<Item Name="simple-logo-96x35.png" Type="Document" URL="../images/simple-logo-96x35.png"/>
-			<Item Name="simple-logo-389x141.png" Type="Document" URL="../images/simple-logo-389x141.png"/>
-			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../images/simple-logo-w-bg-96x35.png"/>
-			<Item Name="simple-logo-w-bg-389x141.png" Type="Document" URL="../images/simple-logo-w-bg-389x141.png"/>
+			<Item Name="G-16x16.ico" Type="Document" URL="../../images/G-16x16.ico"/>
+			<Item Name="G-16x16.png" Type="Document" URL="../../images/G-16x16.png"/>
+			<Item Name="G-94x112.png" Type="Document" URL="../../images/G-94x112.png"/>
+			<Item Name="G-128x128.png" Type="Document" URL="../../images/G-128x128.png"/>
+			<Item Name="G-w-bg-16x16.ico" Type="Document" URL="../../images/G-w-bg-16x16.ico"/>
+			<Item Name="G-w-bg-16x16.png" Type="Document" URL="../../images/G-w-bg-16x16.png"/>
+			<Item Name="Gbird-16-outline.ico" Type="Document" URL="../../images/Gbird-16-outline.ico"/>
+			<Item Name="Gbird-16.ico" Type="Document" URL="../../images/Gbird-16.ico"/>
+			<Item Name="simple-logo-96x35.png" Type="Document" URL="../../images/simple-logo-96x35.png"/>
+			<Item Name="simple-logo-389x141.png" Type="Document" URL="../../images/simple-logo-389x141.png"/>
+			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../../images/simple-logo-w-bg-96x35.png"/>
+			<Item Name="simple-logo-w-bg-389x141.png" Type="Document" URL="../../images/simple-logo-w-bg-389x141.png"/>
 		</Item>
-		<Item Name="Main Menu.rtm" Type="Document" URL="../PicoG-Processor/GVIWebProcessorApp/Main Menu.rtm"/>
-		<Item Name="minivia.vi" Type="VI" URL="../PicoG-Processor/minivia.vi"/>
-		<Item Name="PicoG-Processor.lvlib" Type="Library" URL="../PicoG-Processor/PicoG-Processor.lvlib"/>
+		<Item Name="Main Menu.rtm" Type="Document" URL="../../PicoG-Processor/GVIWebProcessorApp/Main Menu.rtm"/>
+		<Item Name="minivia.vi" Type="VI" URL="../../PicoG-Processor/minivia.vi"/>
+		<Item Name="PicoG-Processor.lvlib" Type="Library" URL="../../PicoG-Processor/PicoG-Processor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -115,7 +115,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E3094B0E-AC78-4AE2-B0DF-1F2DCA1EC204}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">0</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">0</Property>
