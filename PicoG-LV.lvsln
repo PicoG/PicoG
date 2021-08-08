@@ -7,8 +7,15 @@
 
   <Config Name="Release"/>
 
-  <Item ID="3A50CBD3-C93D-4C9B-9508-7760067B" Type="Project" Version="1.1">
-    <Info Path="..\PicoG-Core.lvproj" X64="FALSE">
+  <Item ID="B4F35ECC-10F9-4CF1-9B76-422369D3" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\PicoG-Cache.lvproj" X64="FALSE">
+      <Config Name="Debug"/>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+  <Item ID="0FCD0492-D44B-4427-926C-259CC809" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\PicoG-Core.lvproj" X64="FALSE">
       <Config Name="Debug">
         <Debug Spec="PicoG-Core" Target="My Computer"/>
       </Config>
@@ -16,8 +23,8 @@
     </Info>
   </Item>
 
-  <Item ID="4C66DF4A-B749-4F2B-81E5-BD6ACFA3" Type="Project" Version="1.1">
-    <Info Path="..\PicoG-Processor.lvproj" X64="FALSE">
+  <Item ID="BAF23CAB-4F58-4104-8EB1-02781FB2" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\PicoG-Processor.lvproj" X64="FALSE">
       <Config Name="Debug">
         <Debug Spec="picoG Watcher" Target="My Computer"/>
       </Config>
@@ -25,8 +32,8 @@
     </Info>
   </Item>
 
-  <Item ID="A9C390AB-4BE9-417B-BAA4-59EA1995" Type="Project" Version="1.1">
-    <Info Path="..\Platform-RP2040.lvproj" X64="FALSE">
+  <Item ID="8B8A356A-E7A2-4753-BB2E-6E2C94F7" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\Platform-RP2040.lvproj" X64="FALSE">
       <Config Name="Debug">
         <Debug Spec="RP2040 PPL" Target="My Computer"/>
       </Config>
