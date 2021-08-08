@@ -31,6 +31,7 @@
 			<Item Name="G-w-bg-16x16.png" Type="Document" URL="../../images/G-w-bg-16x16.png"/>
 			<Item Name="Gbird-16-outline.ico" Type="Document" URL="../../images/Gbird-16-outline.ico"/>
 			<Item Name="Gbird-16.ico" Type="Document" URL="../../images/Gbird-16.ico"/>
+			<Item Name="pico_symbol_green_on_transparent_icon.ico" Type="Document" URL="../../images/pico_symbol_green_on_transparent_icon.ico"/>
 			<Item Name="simple-logo-96x35.png" Type="Document" URL="../../images/simple-logo-96x35.png"/>
 			<Item Name="simple-logo-389x141.png" Type="Document" URL="../../images/simple-logo-389x141.png"/>
 			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../../images/simple-logo-w-bg-96x35.png"/>
@@ -117,8 +118,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E3094B0E-AC78-4AE2-B0DF-1F2DCA1EC204}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">0</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">picoG.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/picoG.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -126,8 +129,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/bin/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/Gbird-16.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7AE1CABC-75E3-4795-BD4C-916D38E0771D}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/pico_symbol_green_on_transparent_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{80B23E60-9172-4F57-BE4D-7CF68DB76E93}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PicoG-Processor.lvlib/Main.vi</Property>
@@ -135,7 +138,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">picoG App</Property>
 				<Property Name="TgtF_internalName" Type="Str">picoG App</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 NI</Property>
