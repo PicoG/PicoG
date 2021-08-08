@@ -17,3 +17,4 @@
 *.aliases
 *.lvlps
 *.bldcache
+/Installer/*-cache
