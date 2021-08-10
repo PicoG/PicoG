@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3407C09D5D6486AD22B97C2789BCCE088A62F8476D58CC999ACB67B13802C889E53E419E1B8714728B2EA8055FDC8E731996098553FF4CC30101E7D9E6887B1D" Timestamp="1D785CD4B6E2822" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6073B246434D9C180DD40D9E15B5AA163EAFDBBADA9D886A42A57CAA9E64765770F22BDD7AE321E96AE658F6CF33EEBA2C637E4D4AA12C757D58004A85C393E2" Timestamp="1D78CC7BA7C3E2D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -37,11 +37,11 @@
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="fc9ce3e73dd849ebac2ea04c888c0f8b" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="a51665c6efad4d7ab8904f205f3ec28c" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a91e3cc0a2c4361b49780d8f215d562" Interval="[int]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]MemUsed" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=f83ca98ff2bb47449306ef10860053ad}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a91e3cc0a2c4361b49780d8f215d562" Interval="[uint]1" IsReadOnly="[bool]True" Left="[float]0" Name="[string]MemUsed" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=f83ca98ff2bb47449306ef10860053ad}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="39f2d6e691cf48a1842e4200e6bdcb1a">
 			<DataAccessor Bounds="500 195 40 15" DataItem="f83ca98ff2bb47449306ef10860053ad" Id="fcad4dcf5634d5d885e04ec158f7e2f" Label="661b9773be4846779a0cee1c8cc266b7" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="UInt32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="fcad4dcf5634d5d885e04ec158f7e2f" Bounds="545 195 54 14" Id="661b9773be4846779a0cee1c8cc266b7" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>MemUsed</p.Text>
@@ -50,7 +50,7 @@
 		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="a8618d80d9de4f5b9e4cd7d235dfa920" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
 			<PanelExecutionWindow Id="567f7dc44c19402fba7e5f44b9819560" />
 		</NativeFrontPanel>
-		<DataItem CallDirection="Output" CallIndex="0" DataType="Int32" Id="f83ca98ff2bb47449306ef10860053ad" Name="MemUsed" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="0" DataType="UInt32" Id="f83ca98ff2bb47449306ef10860053ad" Name="MemUsed" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
