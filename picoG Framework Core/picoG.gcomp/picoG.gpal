@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D9AD5ED558BBD9BA9451C0970F0EFC1DA9B6C5CB6B5FB4749309AD081D2A1200C0A57E0890544069A527083C11078B50BB0E2B7F1C9883849490469AEA89D214" Timestamp="1D791638A818422" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<PaletteDefinition BindingKeywords="VireoBrowserTarget" PaletteBaseName="Diagram" xmlns="http://www.ni.com/PlatformFramework">
+		<PaletteContentCategory Display="Add-ons" Id="c7c3147f607a4ca695ff4c6e91981f95" ShortName="Add-ons" UniqueId="NI.LabVIEW.VI:PaletteCategory.Addons" Weight="35">
+			<IconPanel Height="[float]40" Id="dc6ae8cc38be47a889d8365b67930b57" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate Id="8b34de40f6db4e168bb906c0fab4831b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+				<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5 M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="8e93aab2572241f9826fdbe9b7d1e876" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				<Path Data="[PathGeometry]M 39,39 H 1 V 5 H 39 V 39 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f4f5" Height="[float]40" Id="be4ba35184754241a3aa96a32ef4c42b" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				<Path Data="[PathGeometry]M 28,34 C 28.2929993,34 28.5690002,33.9329987 28.8199997,33.8199997 C 28.507,34.5149994 27.8120003,35 27,35 L 9,35 C 7.89499998,35 7,34.1049995 7,33 L 7,15 C 7,14.1890001 7.48500013,13.493 8.18000031,13.1800003 C 8.06700039,13.4309998 8,13.7069998 8,14 L 8,32 C 8,33.1049995 8.89500046,34 10,34 L 28,34 Z M 30,32 L 29,32 L 12,32 C 10.8950005,32 10,31.1049995 10,30 L 10,13 L 10,12 C 10,11.7069998 10.0670004,11.4309998 10.1800003,11.1800003 C 9.73600006,11.3800001 9.38000011,11.7360001 9.18000031,12.1800003 C 9.06700039,12.4309998 9,12.7069998 9,13 L 9,31 C 9,32.1049995 9.89500046,33 11,33 L 29,33 C 29.2929993,33 29.5690002,32.9329987 29.8199997,32.8199997 C 30.2639999,32.6199989 30.6200008,32.2639999 30.8199997,31.8199997 C 30.5690002,31.9330006 30.2929993,32 30,32 Z M 33,29 L 33,11 C 33,9.89500046 32.1049995,9 31,9 L 13,9 C 11.8950005,9 11,9.89500046 11,11 L 11,29 C 11,30.1049995 11.8950005,31 13,31 L 31,31 C 32.1049995,31 33,30.1049995 33,29 Z M 28,21 L 23,21 L 23,26 L 21,26 L 21,21 L 16,21 L 16,19 L 21,19 L 21,14 L 23,14 L 23,19 L 28,19 L 28,21 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="ab4c327ec16540caa1e4a61b80439a33" Left="[float]0" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+			<PaletteContentCategory Display="picoG" Id="43e40e02ce204dafa09d7c64b3e1e94f" ShortName="picoG" UniqueId="87fa6a0f-c72e-4240-8484-33e26e112afb">
+				<IconPanel Height="[float]40" Id="ae24142916dd4a9285ab9362e80789ca" Left="[float]0" Top="[float]0" Width="[float]40">
+					<IconTemplate Id="f9b2763133a7471397714e09cb6f04dd" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+					<Image BaseName="[string]Image" Height="[float]34" Id="c1714a92e39848e5b9ce6aa1f8f15969" Left="[float]3" Source="[EmbeddedDrawingImage]&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xD;&#xA;&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt;&#xD;&#xA;&lt;!-- Creator: CorelDRAW 2018 --&gt;&#xD;&#xA;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xml:space=&quot;preserve&quot; width=&quot;1600px&quot; height=&quot;1600px&quot; version=&quot;1.1&quot; style=&quot;shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd&quot;&#xD;&#xA;viewBox=&quot;0 0 96.71 96.71&quot;&#xD;&#xA; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;&#xD;&#xA; &lt;defs&gt;&#xD;&#xA;  &lt;style type=&quot;text/css&quot;&gt;&#xD;&#xA;   &lt;![CDATA[&#xD;&#xA;    .fil0 {fill:none}&#xD;&#xA;    .fil1 {fill:#12CA6C}&#xD;&#xA;   ]]&gt;&#xD;&#xA;  &lt;/style&gt;&#xD;&#xA; &lt;/defs&gt;&#xD;&#xA; &lt;g id=&quot;Layer_x0020_1&quot;&gt;&#xD;&#xA;  &lt;metadata id=&quot;CorelCorpID_0Corel-Layer&quot;/&gt;&#xD;&#xA;  &lt;g id=&quot;_-1109944272&quot;&gt;&#xD;&#xA;   &lt;rect class=&quot;fil0&quot; width=&quot;96.71&quot; height=&quot;96.71&quot;/&gt;&#xD;&#xA;   &lt;path class=&quot;fil1&quot; d=&quot;M44.04 43.82c-8.69,11.71 -4.27,29.17 14.23,29.51 3.97,0 7.45,-0.93 10.42,-2.77l0 -11.12c-4.23,0 -8.46,0 -12.69,0 -0.02,-3.27 3.09,-7.11 7.15,-7.1l12.98 0 0 21.75c-5.13,4.23 -11.56,6.21 -18.19,6.21 -23.29,-0.35 -28.69,-22.24 -38.05,-42.66l-6.39 -5.83c0.87,-0.31 8.17,-3.67 9.97,-5.58 7.28,-8.27 20.31,-5.95 25.19,3.73 8.39,-6.46 18.06,-10.52 27.46,-13.54 0,4.23 -0.02,13.43 0,18.64 0.01,3.96 -2.33,6.36 -7.44,6.72l0 -15.18c-9.76,4.27 -19.08,9.73 -24.64,17.22zm-10.67 6.25c1.26,-5.99 4.97,-11.65 9.18,-15.75 -1.46,-3.44 -5.08,-6.49 -10.26,-5.6 -3.09,0.69 -4.31,3.1 -6.77,4.77l2.03 1.48c0.56,4.18 3.25,11.14 5.82,15.1z&quot;/&gt;&#xD;&#xA;  &lt;/g&gt;&#xD;&#xA; &lt;/g&gt;&#xD;&#xA;&lt;/svg&gt;&#xD;&#xA;" Stretch="[SMStretch]Uniform" Top="[float]3" Width="[float]34" />
+				</IconPanel>
+				<PaletteContentCategory Display="GPIO" Id="5083486b4bdc472b9111e57fccd9f026" ShortName="GPIO" UniqueId="b1a5fc1f-c763-4394-9652-abf1fd5ac3d1">
+					<IconPanel Height="[float]40" Id="5b07069c3b6746c28eb5954b83d7974f" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="a573d929f35a473c9c43cc7e77293e51" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="5a038ea821294784b42ea30caa8e1dbd" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff00a64f" Height="[float]36" Id="ea4591a70d74409c9b7fb60077821fb4" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]4" Width="[float]40" />
+						<Text Foreground="[SMColor]#fffff200" Height="[float]16" Id="ccc0d0706fc34ccab0b7acf0b5c6a47c" Left="[float]6" Text="[string]GPIO" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]14" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]28">
+							<FontSetting FontFamily="Segoe UI" FontSize="9" Id="26be7d2a7f3b42ba97bebb2951f5add5" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="a04e97eb21864daca8b232b35fe59f8b" MethodTarget="picoG::GPIO::Init.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="c393123232c84eb88730e6886a7d99a6" MethodTarget="picoG::GPIO::SetOutput.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="b32dfb26758a4a2f830f957d38251781" MethodTarget="picoG::GPIO::SetPulls.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="cc70404b4cdb4bcc815af3967b6f17a6" MethodTarget="picoG::GPIO::Write.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="61875393930f4028a82682f524b969ed" MethodTarget="picoG::GPIO::Read.gvi" />
+					<PaletteContentCategory Display="Pins" Id="323da5e86b44aa9b96479380a54753b" UniqueId="c0379f8a-5ac0-4913-bc76-20aa9d4df637">
+						<IconPanel Height="[float]40" Id="1011362006bb42659702211d7525ccbb" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="c5dff544c09c4d4cb0e28bc6a92b66a8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="2438d5a9bb794b97aa27abe27ddf6593" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+							<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff00a64f" Height="[float]36" Id="9786e800c3604f228820364df20fda38" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]4" Width="[float]40" />
+							<Text Foreground="[SMColor]#fffff200" Height="[float]16" Id="b877b9af574e3c8278591bb1efcd7a" Left="[float]9" Text="[string]Pins" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]14" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]22">
+								<FontSetting FontFamily="Segoe UI" FontSize="9" Id="5e8f218a2add463c851e539bc49478be" />
+							</Text>
+						</IconPanel>
+						<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="c358f0c49fce45e3957dc7d96834d6ee" MethodTarget="picoG::GPIO::LED Pin.gvi" />
+					</PaletteContentCategory>
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="System" Id="c4dff03a07704c84a3bf371fb2ff922a" UniqueId="c18fd825-2a1f-4a01-b6b8-9ec5b3fbdbf8">
+					<IconPanel Height="[float]40" Id="59bbf34617bd4999ac1c8a31f1201d30" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="387f74bcad39438e81da714f594dc516" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="24b5e8b46bed4502a97a26590b0f4742" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff00a4e5" Height="[float]36" Id="fb24bcd1ad864ab0b7ee4c4fa8978f5d" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]4" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffffffff" Height="[float]16" Id="e1df0e627cef4316bb095b8a93894044" Left="[float]1" Text="[string]System" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]12" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Segoe UI" FontSize="9" Id="eb6cb7dd40854b3aa367576d63c1504c" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="34b5a1fbba34f0e90d236225b7218aa" MethodTarget="picoG::System::MemUsed.gvi" />
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="Stdio" Id="d579169155b04d33ada2e3c6f4934598" UniqueId="bd9c5a9e-c4e0-4ae2-94c6-f78c79fb4c0f">
+					<IconPanel Height="[float]40" Id="d203a7151c684667909967681ea6a075" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="12371ee53e0141f7a877599a330653db" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="4f28bc2eafa74f0b8519fbe2aed95414" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffed0c8c" Height="[float]36" Id="ce6f7946612f437bb571a10c649deae8" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]4" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffffffff" Height="[float]16" Id="27fbc9ffb2d4209b91772021aa80d3a" Left="[float]3" Text="[string]STDIO" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]14" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+							<FontSetting FontFamily="Segoe UI" FontSize="9" Id="6377e721a0ad4e02b2f9dc45d83b5bea" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="9d3c26eb51e14096a5545e897c244e67" MethodTarget="picoG::Stdio::Println.gvi" />
+				</PaletteContentCategory>
+			</PaletteContentCategory>
+		</PaletteContentCategory>
+	</PaletteDefinition>
+</SourceFile>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CB839B23B09CED3F792FDEF9208104476E4BDF2667F2B8ABA83DE369EE7E7C18172553B4650F6CFAA49E0D6AD18BCC4CA53B8BC2BFD25F29ECB99F355851339D" Timestamp="1D791599673FB90" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="UInt32" Id="4d7cb66c8f52404d9e9ab9f88dcd491f" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="6a6be2b4476844cd96d4f26a45054c44" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="b89713de57f54e2182485cecd13f6b51" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="3210dff54f5347248a381c65be29ba88" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="UInt32" Id="d0f8e6ee2cf74fc7a912cec057dcd063" Name="Size">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="97f1dcd88224415d9dd2bf08cf998ed1" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="763d8116cef04e74885c8f3afb3498f7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ae1ee6de9b4d439487670402790561b7" Name="Size_t.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="5c9da6d0d2f848bd809fd0620a085d05" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="fe42a9dbc35447b2b4f1cd23a0e06b8f" xmlns="http://www.ni.com/MocCommon">
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="2674451cb6614199a3b4bb946a4b4a37" Interval="[uint]1" Label="[UIModel]9307732ec8874f76996054a4abd911a7" Left="[float]107" TabIndex="[int]0" Top="[float]89" Value="{DataItemBinding Id=d0f8e6ee2cf74fc7a912cec057dcd063}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="9307732ec8874f76996054a4abd911a7" LabelOwner="[UIModel]2674451cb6614199a3b4bb946a4b4a37" Left="[float]107" Text="[string]Size" Top="[float]69" Width="[float]21" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

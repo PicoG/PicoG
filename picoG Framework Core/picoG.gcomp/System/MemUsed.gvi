@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4D614A3650C1236B62A944DE8654D7CC158C66666811EDC104E91F45E6819AF91E2B3B4AF0EC920ED5536A886839D9534C7FF799EECC4FB2B0683382EBA17FB3" Timestamp="1D79159F84717B7" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="49a164d0b42e4174aa33269f99bc7b35" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="7726416c73e54c1599ef1a0b65cc23e6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="dec27de0e21544619af946e6e7c25264" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="4dd45f3c8741432b9ad3d616ad48b7fe" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="eeea564ac09448049b2c6d30bf483ee7" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff00a4e5" Id="9f0a7ca25e9742ceb946241e14ef95f2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 30,10 L 0,10 L 0,0 L 2.90322566,0 L 2.90322566,5 L 3.87096763,5 L 3.87096763,0 L 5.80645132,0 L 5.80645132,3 L 6.77419329,3 L 6.77419329,0 L 8.70967674,0 L 8.70967674,5 L 9.67741871,5 L 9.67741871,0 L 11.6129026,0 L 11.6129026,3 L 12.5806446,3 L 12.5806446,0 L 14.5161285,0 L 14.5161285,5 L 15.4838705,5 L 15.4838705,0 L 17.4193535,0 L 17.4193535,3 L 18.3870964,3 L 18.3870964,0 L 20.3225803,0 L 20.3225803,5 L 21.2903214,5 L 21.2903214,0 L 23.2258053,0 L 23.2258053,3 L 24.1935482,3 L 24.1935482,0 L 26.1290321,0 L 26.1290321,5 L 27.0967731,5 L 27.0967731,0 L 30,0 L 30,10 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#ffffffff" Id="f3c30524f44141b9afcb8452050bd128" Left="[float]5" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]25" Width="[float]30" />
+				<Text Foreground="[SMColor]#ffffffff" Height="[float]15" Id="38c43f7ae8a949a2ac7638f63bcac92e" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Mem" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]-1" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+					<FontSetting FontFamily="Segoe UI" FontSize="9" Id="db5784a937d47b49c8919ebe30bbbee" />
+				</Text>
+				<Text Foreground="[SMColor]#ffffffff" Height="[float]15" Id="2b1676a17ddd4a51b97608a2316dbf6e" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Used" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]9" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+					<FontSetting FontFamily="Segoe UI" FontSize="9" Id="fc9b3468f1104c118e50bd89a02bcc45" />
+				</Text>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="247c8d6f06814f21991fec746050376b" ListViewHeight="55" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 35" Parameter="eaa4b1e5cde74b498f3d7f488665cb1f" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="307a9e94b9bc419086664be736bec0cf" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="fecb592668734ccea4c481dc8d3b5ab3" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="851a78c0cc6140f38d24368688409474">
+			<DataAccessor Bounds="240 135 40 15" DataItem="eaa4b1e5cde74b498f3d7f488665cb1f" Id="b9914ac53ea84df98af3a689ea66e490" Label="bcb6b8bb2c2f46109a84db6277c7382b" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@624963b3eaa04347afe0d5b86ee29dad" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="b9914ac53ea84df98af3a689ea66e490" Bounds="285 135 31 14" Id="bcb6b8bb2c2f46109a84db6277c7382b" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Bytes</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="c34c339e590a49d497e705402f9d55bb" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="1906a77efc7241fe94dc38408e19ebc0" />
+			<NumericText BaseName="[string]Size" Height="[float]24" Id="103bd83c19504ad59ea6127bcb80d8af" Interval="[uint]1" IsReadOnly="[bool]True" Label="[UIModel]2d0375e2d1af4daba957dd15d1a71aee" Left="[float]180" TabIndex="[int]0" Top="[float]68" Value="{DataItemBinding Id=eaa4b1e5cde74b498f3d7f488665cb1f}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]@624963b3eaa04347afe0d5b86ee29dad" Width="[float]72" p4:ControlDefinitionChecksum="hz/8Epd8XJtAaJ6uBNIenLOGFQyATmctga+oprjdBCA=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="picoG::Types::Size_t.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</NumericText>
+			<Label Height="[float]16" Id="2d0375e2d1af4daba957dd15d1a71aee" LabelOwner="[UIModel]103bd83c19504ad59ea6127bcb80d8af" Left="[float]180" Text="[string]Bytes" Top="[float]48" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@624963b3eaa04347afe0d5b86ee29dad" Id="eaa4b1e5cde74b498f3d7f488665cb1f" Name="Bytes" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="picoG::Types::Size_t.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="624963b3eaa04347afe0d5b86ee29dad">
+			<Attributed AttributedType="@2c1baf7fdb2a48ffbf7d8282fffda17c">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]picoG::Types" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2c1baf7fdb2a48ffbf7d8282fffda17c">
+			<Typedef TypedefName="Size_t.gtype" UnderlyingType="UInt32" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

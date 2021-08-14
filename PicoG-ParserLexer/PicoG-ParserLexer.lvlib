@@ -13,6 +13,7 @@
 		<Item Name="AST Node Type.ctl" Type="VI" URL="../AST Node Type.ctl"/>
 		<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
 		<Item Name="Lexer Char Trait.ctl" Type="VI" URL="../Lexer Char Trait.ctl"/>
+		<Item Name="NodeRef.ctl" Type="VI" URL="../NodeRef.ctl"/>
 		<Item Name="Type Flags.ctl" Type="VI" URL="../Type Flags.ctl"/>
 	</Item>
 	<Item Name="AST.lvclass" Type="LVClass" URL="../AST/AST.lvclass"/>
