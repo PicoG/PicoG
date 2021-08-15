@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="230CE8F7177D8CDE9FDEE2FC3C36685A1E33A6F4329F93733E6E38171D987D17E215F748D79EEBBBBD35E7D26D2CE3FB595541213D3B6980B2451B7FDE24F810" Timestamp="1D7916488C018C1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A47CAD813981C25A65412B53DC239E0BC80CAE4C04875889C29291036734605F0CD80D54161B6784F701CF0CE98CF97CCF7705A68AFBED5C6CB0C39ECA217661" Timestamp="1D7919932EBCA0A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition Company="picoG" Product="picoG Framework Core" ShortDescription="picoG Framework Core" TargetedProduct="LabVIEW" Version="0.1.0.11" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition Company="picoG" Product="picoG Framework Core" ShortDescription="picoG Framework Core" TargetedProduct="LabVIEW" Version="0.1.0.12" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionOutput CachedDisplayName="Package" Id="8a40b0d12e844f66aa30d09dacb4ca3c" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="picog-framework-core" p3:Homepage="https://picog.org" p3:MaintainerEmail="info@picog.org" p3:MaintainerName="picoG" p3:PackageDisplayName="picoG Framework Core" xmlns:p3="http://www.ni.com/GComponent.xsd" />
 		<DistributionBuildTarget Id="cfe93ad0a0947e5b06e274c89f6a29c" Target="::VireoDevSystem" />
 		<DistributionMemberDependencySource Id="5a4bd39a232d4b18a59969efad6e5905" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Source" Target="::VireoDevSystem::Interactive::picoG.gcomp" />
