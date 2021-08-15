@@ -23,8 +23,15 @@ set vipm="%ProgramFiles(x86)%\JKI\VI Package Manager\support\VIPM File Handler.e
 
 if not exist %mgise% goto badmgise
 
-rem TODO add options such as build type, optional targets
-rem TODO add checks for existance of MGI SE application, prompt to launch NIPM if missing
+set build_cfg=Release
+
+:readargs
+
+if "%1"=="debug" (
+	set build_cfg=Debug
+	shift
+	goto readargs
+)
 
 :startbuild
 
@@ -44,7 +51,7 @@ if not %EL%==0 goto badvipc
 echo Building picoG tool with default targets
 echo:
 
-%mgise% CLI build %CD%\PicoG-LV.lvsln
+%mgise% CLI build %CD%\PicoG-LV.lvsln %build_cfg%
 
 set EL=%errorlevel%
 if not %EL%==0 goto badbuild
