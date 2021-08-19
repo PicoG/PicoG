@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D9AD5ED558BBD9BA9451C0970F0EFC1DA9B6C5CB6B5FB4749309AD081D2A1200C0A57E0890544069A527083C11078B50BB0E2B7F1C9883849490469AEA89D214" Timestamp="1D791638A818422" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="649054E956D392C053923F989C5D6E5C5CCC8A3266C4A177B5B8007DC55A44A6EA58674847E61E49E267E02E977B39F5B66BD55D45A0DEDB08F9153ACF1D8630" Timestamp="1D794A8CD18E14F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
@@ -64,6 +64,25 @@
 						</Text>
 					</IconPanel>
 					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="9d3c26eb51e14096a5545e897c244e67" MethodTarget="picoG::Stdio::Println.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="596a5eaa1e0e464ab5558afe878f7d58" MethodTarget="picoG::Stdio::StreamRead.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="Constant" Display="FileHandle" Id="e8ae4ee9aff44f218e0b89212eee6529" MethodTarget="picoG::Types::FileHandle.gtype" UniqueId="picoG:Types:FileHandle.gtype.Constant">
+						<IconPanel Height="[float]40" Id="d84d35f7402c43e3bd09409d52d98a80" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="9b116d73c8df432899af03358b3152d7" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="384c4f5fca854c2ead152bd6c3da66a2" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="df6004f080e6408e838c3f59978d37e5" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="ebe0385ff6d34e5f83e225b5f027b755" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="12469588f6a141d0ba5b0e9bad9702d3" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</PaletteContentLeaf>
+					<PaletteContentLeaf ClipboardDataFormat="Constant" Display="StdFile" Id="511959ecbe3f421db700d1f6ec1bb02e" MethodTarget="picoG::Types::StdFile.gtype" UniqueId="picoG:Types:StdFile.gtype.Constant">
+						<IconPanel Height="[float]40" Id="ca1621f99de74aa5827f9bd137950f95" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="9ad7d03554f1494b828352c5b6ee53c5" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="5365c94efdf24af485f3d7dbc9024afb" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="804892ac54a0483bb9253874a686ec7b" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="90688f60e91a423b9fd5fdbd6d7e1b2a" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="3ae610763a4f478cb5587a5947f1320a" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</PaletteContentLeaf>
 				</PaletteContentCategory>
 			</PaletteContentCategory>
 		</PaletteContentCategory>

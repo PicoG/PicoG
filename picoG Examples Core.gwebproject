@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6A4B945EDA79813AA8326979C7CA05A0398EA7E9B2136061F6EE16BA401B575E0FA7A0EF8E59CC8A2E4347E572C2CC93A1C392CF750D3D0D883B5891F330DCAD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="79F3A92419A336B232D06E89C502936601F155EC147B075416C64A132522E945186E5348841D2CF6BC8F4E2D17E9E8D3735A42D25B1DABE099F71D83C16A0B28" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -72,8 +72,8 @@
 						<WeakDefaultComponentConfigurationReference Id="aeee8c784c704c3584dccf357acb06ac" PackageName="ni-skyline-messagehttp-src-21.1.0.niaddon" Target="NI.SL.Message.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="250974a3db2c4972859f0f45634b2317" PackageName="ni-skyline-utilities-src-21.1.0.niaddon" Target="NI.SL.Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="8999932b60c147f1b1d12f3eaefd3a45" PackageName="ni-skyline-tdmreader-src-21.1.0.niaddon" Target="NI.SL.TDMReader.gcomp" />
-						<ComponentConfigurationReferenceDependencySource Id="10d0466133e240129308c3f1544cddd0" Target="HelloBlink.gcomp::Configuration1" />
-						<WeakDefaultComponentConfigurationReference Id="7c3924525857404790cacf27f05db484" PackageName="picog-picog framework core-picog framework core-src-0.1.0.10.niaddon" Target="picoG.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="815d02b4383d4ac0b9b6133046dae882" PackageName="picog-picog framework core-picog framework core-src-0.1.0.12.niaddon" Target="picoG.gcomp" />
+						<ComponentConfigurationReferenceDependencySource Id="5968e28f1fda4f59b8bbdfff35bd1696" Target="HelloBlink.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -87,7 +87,7 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="1883ed348d864a09bf77eff874ff3adb" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-21.1.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/21.1.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="61fd20ae5e1d4627974f0ba7501b0f9e" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-21.1.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/21.1.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="979ee26207b74f188a7552e4b61c906f" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-21.1.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/21.1.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="26d175225463414daac4da05536b61f1" ModelDefinitionType="PackageInterfaceDefinition" Name="picog-picog framework core-picog framework core-src-0.1.0.10.niaddon" StoragePath="ref://picoG/picoG Framework Core/picoG Framework Core-src/0.1.0.10" />
+						<SourceFileReference Bindings="EnvoyManager" Id="4994df24280f415c976ab574cf2aa212" ModelDefinitionType="PackageInterfaceDefinition" Name="picog-picog framework core-picog framework core-src-0.1.0.12.niaddon" StoragePath="ref://picoG/picoG Framework Core/picoG Framework Core-src/0.1.0.12" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ComponentMoC" Id="11" ModelDefinitionType="ComponentDefinition" Name="Default Component">
 						<ComponentDefinition DefaultConfigurationName="Default" Id="12" RootNamespaceId="11" xmlns="http://www.ni.com/GComponent.xsd">
@@ -109,7 +109,7 @@
 							</ComponentConfiguration>
 						</ComponentDefinition>
 					</EmbeddedDefinitionReference>
-					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent" Id="3f67b140f699459b973b9df4619d95c2" ModelDefinitionType="ComponentDefinition" Name="HelloBlink.gcomp" StoragePath="picoG Examples Core\HelloBlink.gcomp\HelloBlink.gcomp" />
+					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent" Id="4908101d10544f74bb5773c73268175e" ModelDefinitionType="ComponentDefinition" Name="HelloBlink.gcomp" StoragePath="picoG Examples Core\HelloBlink\HelloBlink.gcomp\HelloBlink.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
@@ -127,7 +127,7 @@
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Message.gcomp" Id="d0b81fc94a914249856836372d579e4f" PackageInterfaceDefinitionEnvoyId="568f62e01c084443bb3b252a5ed307f8" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.Utilities.gcomp" Id="3f9d272c380748398ee7c1bf6b19735f" PackageInterfaceDefinitionEnvoyId="d3413772ab574461b15817186b7905c3" />
 					<PackageInterfaceDefinitionContents Contents="NI.SL.TDMReader.gcomp" Id="813832714bdd4958b5df82b68b489fe4" PackageInterfaceDefinitionEnvoyId="2d1904698a754598a1d5a3864dd40220" />
-					<PackageInterfaceDefinitionContents Contents="picoG.gcomp" Id="6cd5ab3689594185a2c3cf1386b771f0" PackageInterfaceDefinitionEnvoyId="b40231e7844942768c61133c0e4ea055" />
+					<PackageInterfaceDefinitionContents Contents="picoG.gcomp" Id="303e912c6f054955b61e8801b2568338" PackageInterfaceDefinitionEnvoyId="8726bde6035a4cef8c43cebb55bc5401" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="9d4f3f772a2b4908b65fb78e7d88511b" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-g-http-src-1.0.0.16.niaddon" StoragePath="ref://ni/G/http-src/1.0.0.16" />
 				<SourceFileReference Bindings="EnvoyManager" Id="5a4e4a55e0a54d0899d79107051c4cc0" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-g-websockets-src-1.0.2.2.niaddon" StoragePath="ref://ni/G/websockets-src/1.0.2.2" />
@@ -139,9 +139,8 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="d489fbf9e5964af6a523154b2eafec30" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-21.1.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/21.1.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="2d1904698a754598a1d5a3864dd40220" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-tdmreader-src-21.1.0.niaddon" StoragePath="ref://NI/Skyline/tdmreader-src/21.1.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="d3413772ab574461b15817186b7905c3" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-21.1.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/21.1.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="b40231e7844942768c61133c0e4ea055" ModelDefinitionType="PackageInterfaceDefinition" Name="picog-picog framework core-picog framework core-src-0.1.0.10.niaddon" StoragePath="ref://picoG/picoG Framework Core/picoG Framework Core-src/0.1.0.10" />
+				<SourceFileReference Bindings="EnvoyManager" Id="8726bde6035a4cef8c43cebb55bc5401" ModelDefinitionType="PackageInterfaceDefinition" Name="picog-picog framework core-picog framework core-src-0.1.0.12.niaddon" StoragePath="ref://picoG/picoG Framework Core/picoG Framework Core-src/0.1.0.12" />
 			</EmbeddedDefinitionReference>
-			<SourceFileReference Id="354fc622999e4a1baba6bcd8831f03e7" ModelDefinitionType="DistributionDefinition" Name="picoG Examples Core.lvdist" StoragePath="picoG Examples Core\picoG Examples Core.lvdist" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />

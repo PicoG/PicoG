@@ -13,7 +13,7 @@
 		<Item Name="Command Header Const.vi" Type="VI" URL="../Command Header Const.vi"/>
 		<Item Name="Command.ctl" Type="VI" URL="../Command.ctl"/>
 	</Item>
+	<Item Name="DeployPlatform.lvclass" Type="LVClass" URL="../DeployPlatform/DeployPlatform.lvclass"/>
 	<Item Name="DeployResource.lvclass" Type="LVClass" URL="../DeployResource/DeployResource.lvclass"/>
-	<Item Name="DeployTarget.lvclass" Type="LVClass" URL="../DeployTarget/DeployTarget.lvclass"/>
-	<Item Name="TargetPluginManager.lvclass" Type="LVClass" URL="../TargetPluginManager/TargetPluginManager.lvclass"/>
+	<Item Name="PlatformPluginManager.lvclass" Type="LVClass" URL="../PlatformPluginManager/PlatformPluginManager.lvclass"/>
 </Library>

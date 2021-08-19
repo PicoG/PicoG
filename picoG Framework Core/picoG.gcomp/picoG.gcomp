@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E5B442A2425C650D05856F8E59D751A1BB525889B350AF71C543E81F81245CB0BA9A3608FF090F651EFBD532B2315D27B3DEFEDEC6F5F095081AE4EE5FFFEE9C" Timestamp="1D79161FFF368B4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2063D52D030F7286B6FCA370A12A450CB7EED8AE40E2F4E8CD9A244E53F70C9107D9EACA40513AFE66D705617049683B11E4A87746DE3CC5CB1B8030967F5DB3" Timestamp="1D793EE0CA4FD29" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -25,6 +25,9 @@
 			<ComponentItemProperties AssociatedEnvoyId="165eb592067c40dfb0e800473e14d073" Exported="True" Id="3ce3cec2a56a4b0896aa80b24dc20021" />
 			<ComponentItemProperties AssociatedEnvoyId="bba5a10f8915464ea8c773fc22475c52" Exported="True" Id="3e47c63130704af68118b1e7a0b13d24" />
 			<ComponentItemProperties AssociatedEnvoyId="c97c7529a7c84f808408af811a999d83" Exported="True" Id="dad5414723314d97bf3054e8f1d0e810" />
+			<ComponentItemProperties AssociatedEnvoyId="15f3cb047e154107bb15b3630d5142a5" Exported="True" Id="f1f403d5b81d48269fc95155c4bacdb1" />
+			<ComponentItemProperties AssociatedEnvoyId="25790bf157d34df6bf882fbd75fa33dc" Exported="True" Id="32d306ae669b4267b7f7b3b6e965471d" />
+			<ComponentItemProperties AssociatedEnvoyId="12dd663e419b4833aa74d9c62668a9cf" Exported="True" Id="8293f2b277f446c2bb044deef4b1dc8d" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="e0d737f7fcdc450db22b5b9c6d72d66f" xmlns="http://www.ni.com/PlatformFramework">
@@ -43,6 +46,8 @@
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="33be1fe564c04c74b963872c8f5fbd73" Name="Types">
 					<SourceFileReference Bindings="EnvoyManager" Id="7fbd67ec9e744e70bfbe2d698d663c33" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Pin.gtype" StoragePath="Types\Pin.gtype\Pin.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="165eb592067c40dfb0e800473e14d073" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Size_t.gtype" StoragePath="Types\Size_t.gtype\Size_t.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="25790bf157d34df6bf882fbd75fa33dc" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="FileHandle.gtype" StoragePath="Types\FileHandle.gtype\FileHandle.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="12dd663e419b4833aa74d9c62668a9cf" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="StdFile.gtype" StoragePath="Types\StdFile.gtype\StdFile.gtype" />
 				</NameScopingEnvoy>
 				<SourceFileReference Bindings="VireoBrowserTarget" Id="df225c3002184f30a714d9a05ebf7aed" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="picoG.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="picoG.gpal" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9c511aef4c1b4771b67cad08b384b247" Name="System">
@@ -50,6 +55,7 @@
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c5b0a123adf24ce2a8aba30ee5e8a103" Name="Stdio">
 					<SourceFileReference Id="bba5a10f8915464ea8c773fc22475c52" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Println.gvi" StoragePath="Stdio\Println.gvi" />
+					<SourceFileReference Id="15f3cb047e154107bb15b3630d5142a5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="StreamRead.gvi" StoragePath="Stdio\StreamRead.gvi" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
