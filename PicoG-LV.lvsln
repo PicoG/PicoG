@@ -23,19 +23,19 @@
     </Info>
   </Item>
 
-  <Item ID="BAF23CAB-4F58-4104-8EB1-02781FB2" Type="Project" Version="1.1">
-    <Info Path="..\lvproj\PicoG-Processor.lvproj" X64="FALSE">
+  <Item ID="8B8A356A-E7A2-4753-BB2E-6E2C94F7" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\Platform-RP2040.lvproj" X64="FALSE">
       <Config Name="Debug">
-        <Debug Spec="picoG Watcher" Target="My Computer"/>
+        <Debug Spec="RP2040 PPL" Target="My Computer"/>
       </Config>
       <Config Name="Release"/>
     </Info>
   </Item>
 
-  <Item ID="8B8A356A-E7A2-4753-BB2E-6E2C94F7" Type="Project" Version="1.1">
-    <Info Path="..\lvproj\Platform-RP2040.lvproj" X64="FALSE">
+  <Item ID="BAF23CAB-4F58-4104-8EB1-02781FB2" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\PicoG-Processor.lvproj" X64="FALSE">
       <Config Name="Debug">
-        <Debug Spec="RP2040 PPL" Target="My Computer"/>
+        <Debug Spec="picoG Watcher" Target="My Computer"/>
       </Config>
       <Config Name="Release"/>
     </Info>
