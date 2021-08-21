@@ -1,0 +1,3 @@
+[submodule "PicoVireo"]
+	path = PicoVireo
+	url = https://github.com/PicoG/PicoVireo.git

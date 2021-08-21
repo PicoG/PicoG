@@ -29,7 +29,7 @@
 		<Item Name="RP2040.lvlib:RP2040Platform.lvclass" Type="Friended Library" URL="../../RP2040Resource/RP2040Platform.lvclass"/>
 	</Item>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="PicoG-Core.lvlibp:DeployResource.lvclass" Type="Parent" URL="../../../../../Builds/picoG/ppl/PicoG-Core.lvlibp/DeployResource/DeployResource.lvclass"/>
+		<Item Name="PicoG-Core.lvlibp:DeployResource.lvclass" Type="Parent" URL="../../../../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/DeployResource/DeployResource.lvclass"/>
 	</Item>
 	<Item Name="VisaResource.ctl" Type="Class Private Data" URL="VisaResource.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

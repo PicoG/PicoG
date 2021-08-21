@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2063D52D030F7286B6FCA370A12A450CB7EED8AE40E2F4E8CD9A244E53F70C9107D9EACA40513AFE66D705617049683B11E4A87746DE3CC5CB1B8030967F5DB3" Timestamp="1D793EE0CA4FD29" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="110E6E9CA08171C14EC9031C07E91A7D38B0B951D8692BF8B7C1E923F68AF25FC46ED78C3D8BEBFCEAC5A91B0691B4EBFC510417FCFDEDCAD05EBD5F0AA07398" Timestamp="1D79532EC0696F6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -28,6 +28,7 @@
 			<ComponentItemProperties AssociatedEnvoyId="15f3cb047e154107bb15b3630d5142a5" Exported="True" Id="f1f403d5b81d48269fc95155c4bacdb1" />
 			<ComponentItemProperties AssociatedEnvoyId="25790bf157d34df6bf882fbd75fa33dc" Exported="True" Id="32d306ae669b4267b7f7b3b6e965471d" />
 			<ComponentItemProperties AssociatedEnvoyId="12dd663e419b4833aa74d9c62668a9cf" Exported="True" Id="8293f2b277f446c2bb044deef4b1dc8d" />
+			<ComponentItemProperties AssociatedEnvoyId="eac2bc8003f84329b4780e34a85cfd65" Exported="True" Id="a28d8bde857f42db994d8f73f983d71d" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="e0d737f7fcdc450db22b5b9c6d72d66f" xmlns="http://www.ni.com/PlatformFramework">
@@ -56,6 +57,7 @@
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c5b0a123adf24ce2a8aba30ee5e8a103" Name="Stdio">
 					<SourceFileReference Id="bba5a10f8915464ea8c773fc22475c52" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Println.gvi" StoragePath="Stdio\Println.gvi" />
 					<SourceFileReference Id="15f3cb047e154107bb15b3630d5142a5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="StreamRead.gvi" StoragePath="Stdio\StreamRead.gvi" />
+					<SourceFileReference Id="eac2bc8003f84329b4780e34a85cfd65" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Print.gvi" StoragePath="Stdio\Print.gvi" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
