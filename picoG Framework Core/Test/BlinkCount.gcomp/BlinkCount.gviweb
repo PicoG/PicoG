@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="55A9080A5F55CE3D6A65F44510FE30556E0BFCE84B52CDB5DDD6B4544669AEF470F5297439A37DB6ED8DDF6C87FE0C9FA58FF276D67941D4B5FB0BAB382A52EC" Timestamp="1D79716853320CE" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="cfffd8e2d0f6432a930a9b8f99c01d43" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="f255cf29edc14ada9cf4754fb46d44d9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="30d402d0a9df4e8f827c4464e2a32c18" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="96e968e1cfba4855b4eb63d18008c498" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="3139e3c5aef4e949272c6be9bdd34a9" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6d9d9cdbcd7243039628cb7a11850e35" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="9731f22914d04bab888d51f0a722309b" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]BlinkCount" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="7da17578fb2e43a0ba3840e217ea6674" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="59be4ab45f8a44fbaf202090e3fee987" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="c3109407c8af4747ac9ba067e4966b6e" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="9b3d6f61d92d4f7fa30e490e8f585d45" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="8bc03bdabbb64b1f8ee1ce82b104fffe">
+			<Literal Bounds="230 210 40 15" DataType="Int32" Id="2653e59d36914e75a207c124850a49c0" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>2</p.Data>
+				<NumericBehavior Interpretation="Numeric" ValueFormatter="LV:0" />
+			</Literal>
+			<Multiply Bounds="385 210 30 30" Id="8d2bfbc28493457597cff408a5a68614" Terminals="o=bcd676c2e11149699c3971f7040ea56d, c0t0v=1b60b26ff88e4713bf6b440fac218efe, c1t0v=8bd917281a3f4e85ad1236f81b707df8" />
+			<Wire Id="1b60b26ff88e4713bf6b440fac218efe" Joints="N(2653e59d36914e75a207c124850a49c0:Out)|(270,215) N(8d2bfbc28493457597cff408a5a68614:c0t0v)|(385,215)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="335 225 40 15" DataType="Int32" Id="8db4e03cc88244b3894990b1a90cb24f" Label="b006e63303b54643b0a836f0af7b174b" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>2</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+			</Literal>
+			<NodeLabel AttachedTo="8db4e03cc88244b3894990b1a90cb24f" Bounds="335 207 30 15" Id="b006e63303b54643b0a836f0af7b174b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>input 1</p.Text>
+			</NodeLabel>
+			<Wire Id="8bd917281a3f4e85ad1236f81b707df8" Joints="N(8db4e03cc88244b3894990b1a90cb24f:Out)|(375,230) N(8d2bfbc28493457597cff408a5a68614:c1t0v)|(385,230)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="300 285 40 40" Id="4a127756e98440738a0d5cbfb57e8d35" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\Init.gvi&quot;" Signature="@1723bf71f30b4c6fbb9daf13823895ac" Target="picoG::GPIO::Init.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Pin in" />
+						<Parameter Id="R0" Desc="Pin &lt;Pin in&gt;" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Literal Bounds="230 285 40 15" DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Id="ec8474cf04c143e1b0d7c91a7e364d1e" Label="c9c578d21ae24f769802017a9b645a97" p4:ControlDefinitionChecksum="A4F864pun1PwvH7MVtfLK2/Cw+0iMCOzE5hogNyEsZc=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>25</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="picoG::Types::Pin.gtype" />
+					<p4:TypeDefinitionTarget TargetName="picoG::Types::Pin.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+			</Literal>
+			<NodeLabel AttachedTo="ec8474cf04c143e1b0d7c91a7e364d1e" Bounds="230 267 30 15" Id="c9c578d21ae24f769802017a9b645a97" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Pin in</p.Text>
+			</NodeLabel>
+			<Wire Id="79463c2ddf8b433599721db0457dbe02" Joints="N(ec8474cf04c143e1b0d7c91a7e364d1e:Out)|(270,290) N(4a127756e98440738a0d5cbfb57e8d35:L0)|(300,290)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="360 285 40 40" Id="e149519701b045dc91c4c9db338f55f3" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\SetOutput.gvi&quot;" Signature="@2927900de42f41d4b8b93f6ef58b3555" Target="picoG::GPIO::SetOutput.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Pin in" />
+						<Parameter Id="L1" Desc="Is Output?" />
+						<Parameter Id="R0" Desc="Pin &lt;Pin in&gt;" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="920ecf9bc1cd43a7a4d1082a53cd241f" Joints="N(4a127756e98440738a0d5cbfb57e8d35:R0)|(340,290) N(e149519701b045dc91c4c9db338f55f3:L0)|(360,290)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="290 245 25 15" DataType="Boolean" Id="d8caa70bb9534060a4358737fb9bfff2" Label="19195c8c7d1a4495b8695cace9fe72f7" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>True</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<NodeLabel AttachedTo="d8caa70bb9534060a4358737fb9bfff2" Bounds="290 227 30 15" Id="19195c8c7d1a4495b8695cace9fe72f7" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Is Output?</p.Text>
+			</NodeLabel>
+			<Wire Id="e5e81035fcf742d4a2ef78223b21c7f0" Joints="N(d8caa70bb9534060a4358737fb9bfff2:Out)|(315,250) h(35) B(1) N(dabb69206c904e39b1ef0c6682ac6490:o0)|(418,250) B(1) v(50) N(e149519701b045dc91c4c9db338f55f3:L1)|(360,300)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ForLoop Bounds="423 218 221 126" DiagramId="bfc66c118e054c07b6e9e1284984851b" Id="bcde21a5b03f4775be5a9c2458c77cf8">
+				<LoopIteration Bounds="5 95 15 15" Id="fd9e4d6a24204a5f9938a4ee8b441a23" />
+				<Not Bounds="60 20 25 20" Id="eed7a52fff3f48a1ae2f83821a2235ac" />
+				<Wire Id="bed9e5665f9f40d591f3e3827e984f05" Joints="N(dabb69206c904e39b1ef0c6682ac6490:i0)|(6,30) h(24) B(1) N(eed7a52fff3f48a1ae2f83821a2235ac:x)|(60,30) B(1) v(50) N(58da39f19c5847dbb0f9674008125642:L1)|(50,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="e21594fa0b19453d8eadf244d3a2e364" Joints="N(eed7a52fff3f48a1ae2f83821a2235ac:.not. x?)|(85,30) N(db1899e117c44038e46bc3c1fa4506d:bfc66c118e054c07b6e9e1284984851b)|(209,30)" xmlns="http://www.ni.com/PlatformFramework" />
+				<MethodCall Bounds="50 65 40 40" Id="58da39f19c5847dbb0f9674008125642" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\Write.gvi&quot;" Signature="@f2ecef34be8d4ed898bb78d85bec1d93" Target="picoG::GPIO::Write.gvi" xmlns="http://www.ni.com/MocCommon">
+					<p.MethodDeclaration>
+						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+							<Parameter Id="L0" Desc="Pin in" />
+							<Parameter Id="L1" Desc="Value" />
+							<Parameter Id="R0" Desc="Pin &lt;Pin in&gt;" />
+						</MethodDeclaration>
+					</p.MethodDeclaration>
+					<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				</MethodCall>
+				<Wire Id="8c0707ac87e34439aceba8febef40ed1" Joints="N(58d4da7ae5744ff89b46c604d12a60cc:i0)|(6,70) N(58da39f19c5847dbb0f9674008125642:L0)|(50,70)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="160 65 40 40" Id="240691a084cd4b67b2d3ca640d1ba9c1" />
+				<Literal Bounds="110 80 40 15" DataType="UInt32" Id="1d802f6050f847e9af63088911817194" Label="4499c99de5744183ae89adbe077ec562" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>400</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+				</Literal>
+				<NodeLabel AttachedTo="1d802f6050f847e9af63088911817194" Bounds="110 62 30 15" Id="4499c99de5744183ae89adbe077ec562" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>milliseconds to wait</p.Text>
+				</NodeLabel>
+				<Wire Id="84456392af8e430cbad7ae9eb9351186" Joints="N(1d802f6050f847e9af63088911817194:Out)|(150,85) N(240691a084cd4b67b2d3ca640d1ba9c1:time to wait)|(160,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="c0db9ec7fa4a41d1a476504d3709ed87" Terminals="bcde21a5b03f4775be5a9c2458c77cf8=bcd676c2e11149699c3971f7040ea56d, bfc66c118e054c07b6e9e1284984851b" />
+				<LoopTunnel Bounds="-5 67 13 10" Docking="Left" Id="58d4da7ae5744ff89b46c604d12a60cc" Terminals="o0=fec4ed6479441eca08e55c76baeb2fd, i0=8c0707ac87e34439aceba8febef40ed1" />
+				<RightShiftRegister Bounds="211 27 13 10" Docking="Right" Id="db1899e117c44038e46bc3c1fa4506d" Terminals="bcde21a5b03f4775be5a9c2458c77cf8, bfc66c118e054c07b6e9e1284984851b=e21594fa0b19453d8eadf244d3a2e364" />
+				<LeftShiftRegister Bounds="-5 27 13 10" Docking="Left" Id="dabb69206c904e39b1ef0c6682ac6490" RightRegister="db1899e117c44038e46bc3c1fa4506d" Terminals="o0=e5e81035fcf742d4a2ef78223b21c7f0, i0=bed9e5665f9f40d591f3e3827e984f05" />
+			</ForLoop>
+			<Wire Id="bcd676c2e11149699c3971f7040ea56d" Joints="N(8d2bfbc28493457597cff408a5a68614:o)|(415,225) N(c0db9ec7fa4a41d1a476504d3709ed87:bcde21a5b03f4775be5a9c2458c77cf8)|(424,225)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="fec4ed6479441eca08e55c76baeb2fd" Joints="N(e149519701b045dc91c4c9db338f55f3:R0)|(400,290) N(58d4da7ae5744ff89b46c604d12a60cc:o0)|(418,290)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="19033aafcbd84ffd889af70660ab536a" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="1723bf71f30b4c6fbb9daf13823895ac">
+			<Attributed AttributedType="@f5afaebdc0494e75bf8133f3fecff532">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="eefe3436e2dc45c088ad03b7ce3132a7">
+			<Attributed AttributedType="@5a23f76827af432b92022e31ba7c2151">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]picoG::Types" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2927900de42f41d4b8b93f6ef58b3555">
+			<Attributed AttributedType="@1366cd70e84545cb973bbee276b79bec">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f2ecef34be8d4ed898bb78d85bec1d93">
+			<Attributed AttributedType="@ed0973b6e9cd408087b394fcaed1c48d">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f5afaebdc0494e75bf8133f3fecff532">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@bce38d8767a64d83a722c9f26bafaa92">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pin in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@49615097126d46cdb7ba9e868e210f4a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pin &lt;Pin in&gt;" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5a23f76827af432b92022e31ba7c2151">
+			<Typedef TypedefName="Pin.gtype" UnderlyingType="UInt32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1366cd70e84545cb973bbee276b79bec">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="SetOutput.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@bce38d8767a64d83a722c9f26bafaa92">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pin in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@226d9677c668400c90b569aad7c6d25b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Is Output?" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@49615097126d46cdb7ba9e868e210f4a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pin &lt;Pin in&gt;" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ed0973b6e9cd408087b394fcaed1c48d">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@bce38d8767a64d83a722c9f26bafaa92">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pin in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@226d9677c668400c90b569aad7c6d25b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Value" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@49615097126d46cdb7ba9e868e210f4a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pin &lt;Pin in&gt;" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bce38d8767a64d83a722c9f26bafaa92">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@eefe3436e2dc45c088ad03b7ce3132a7" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="49615097126d46cdb7ba9e868e210f4a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@eefe3436e2dc45c088ad03b7ce3132a7" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="226d9677c668400c90b569aad7c6d25b">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="picoG::GPIO::Init.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ff00a64f" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Text Foreground="[SMColor]#fffff200" Height="[float]16" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]GPIO" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]-1" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+								<FontSetting FontFamily="Segoe UI" FontSize="9" />
+							</Text>
+							<Path Data="[PathGeometry]M 10.4969997,5.45499992 L 14.75,3.24300003 L 12.5319996,7.48999977 L 17.9839993,8.93299961 L 12.5299997,10.3699999 L 14.7419996,14.6239996 L 10.4919996,12.4060001 L 9.05099964,17.8579998 L 7.61399984,12.4029999 L 3.3599999,14.6190004 L 5.57800007,10.368 L 0,8.92500019 L 5.57800007,7.48799992 L 3.36599994,3.2349999 L 7.61600018,5.45300007 L 9.06000042,0 L 10.4969997,5.45499992 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#fffff200" Height="[float]17.858" Left="[float]11" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]16" Width="[float]17.984" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]picoG.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="picoG::GPIO::SetOutput.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ff00a64f" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Text Foreground="[SMColor]#fffff200" Height="[float]16" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]GPIO" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+								<FontSetting FontFamily="Segoe UI" FontSize="9" />
+							</Text>
+							<Path Data="[PathGeometry]M 28,4 L 28,6 L 27,7 L 9,7 C 8.22799969,8.76399994 6.62699986,10 4.57800007,10 C 2.52900004,10 0.772000015,8.76399994 0,7 L 5,7 C 5,7 6,6 6,5 C 6,4 5,3 5,3 L 0,3 C 0.772000015,1.23500001 2.52900004,0 4.57800007,0 C 6.62699986,0 8.22799969,1.23500001 9,3 L 27,3 L 28,4 Z M 27,5 C 27,4.44700003 26.552,4 26,4 C 25.448,4 25,4.44700003 25,5 C 25,5.55200005 25.448,6 26,6 C 26.552,6 27,5.55200005 27,5" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#ffffff00" Left="[float]6" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]16" Width="[float]28" />
+							<Text Foreground="[SMColor]#fffff200" Height="[float]16" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Output" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+								<FontSetting FontFamily="Segoe UI" FontSize="8" />
+							</Text>
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]picoG.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="picoG::GPIO::Write.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ff00a64f" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Text Foreground="[SMColor]#fffff200" Height="[float]16" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]GPIO" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+								<FontSetting FontFamily="Segoe UI" FontSize="9" />
+							</Text>
+							<Path Data="[PathGeometry]M 17.9230003,0.209000006 C 18.5440006,-0.338999987 19.9020004,0.184 21.3630009,1.84000003 C 22.8260002,3.49499989 23.1760006,4.90799999 22.5559998,5.45599985 L 19.9319992,7.77400017 L 15.3000002,2.5250001 L 17.9230003,0.209000006 Z M 3.86899996,18.2870007 L 9.52499962,15.6280003 L 6.71099997,16.1119995 L 6.83400011,13.3339996 L 5.91900015,13.809 L 6.21700001,11.8800001 L 2.87700009,17.1630001 L 3.86899996,18.2870007 Z M 10.1879997,16.3780003 L 0,20.7029991 L 5.5539999,11.1309996 L 11.5509996,5.83500004 L 16.184,11.0819998 L 10.1879997,16.3780003 Z M 18.3619995,9.01599979 L 13.7290001,3.76900005 C 13.3909998,3.38599992 14.151,2.73600006 14.4779997,3.10599995 L 19.1119995,8.35400009 C 19.4459991,8.7329998 18.6860008,9.38300037 18.3619995,9.01599979 M 16.8719997,10.3500004 L 12.2390003,5.10300016 C 11.901,4.71999979 12.6599998,4.07000017 12.9879999,4.44199991 L 17.6210003,9.68799973 C 17.9559994,10.0670004 17.1949997,10.717 16.8719997,10.3500004" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#fffff200" Height="[float]20.703" Left="[float]9" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]16" Width="[float]22.849" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]picoG.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

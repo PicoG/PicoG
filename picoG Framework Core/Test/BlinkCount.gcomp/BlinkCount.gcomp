@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C046D855B0C01F4AC205C85CCD506F1DE0790BE593400D2DF0588F72A9E8E7F732109F35111EBEBAB9C2BF7A8F4F49A67FCE0A2BDE6563D430977A1E571190E3" Timestamp="1D79712B51E42CC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="80f32fcae09e4149a1ffcc07244315a6" RootNamespaceId="d03cddd119ed4e8b8c58e4cd8edd7920" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="d41bcb7d71be4a6f9c31be026d1c9892" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="37701263bd0043d384f126529763bb4c" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="747ff825d45c4f229ea357df92877613" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="bbf9211aca654081909d3876064aeb5b" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="1b1e8ac1ad0e4690beb3078224016d86" Name="Configuration1">
+			<CompilerSymbolTable Id="31012088a5dc47a09410d95d82c937b9" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="b38993de33d6474faeec95f1cf64fc37" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="a881c6d375fc423c9cfc9838216fe8d5" Id="963c77e5ea3e442e9615fe838b6d7be3" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="622b678db00b4cb6b52e36ce95efcba4" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="6245a8835a884a69974a5481a06f9eec" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="724f742e26a8475b896741a5097e33e3" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="d03cddd119ed4e8b8c58e4cd8edd7920" Name="BlinkCount">
+				<SourceFileReference Id="a881c6d375fc423c9cfc9838216fe8d5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="BlinkCount.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="BlinkCount.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="f0d803a02de46d18eaa93edfb39f7f2" Name="BlinkCount.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="1b1e8ac1ad0e4690beb3078224016d86" Id="4700929ce53243ecb0ef55cb1acedfed" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

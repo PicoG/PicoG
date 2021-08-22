@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3DC481A328A64E2DC7292FA28B5C9C548936FDA6E376DE5757E3E0D22A8355BE69CDE74D606F6E146AD684B0D17BC6493953199B94DF5119881FBBA14ACD0FCE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3F106B031C7D748E9ACE885CFA19D4866844777D43A132B8652AC6EF5ACA36215CEBA0D8CF17DE9C3D9293B38184BE5E768D60FFA8EA522F0708448BA3EE341A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -76,6 +76,7 @@
 						<ComponentConfigurationReferenceDependencySource Id="6a07d751571c4e8c88528de5ec17bb9a" Target="TestStreamRead.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="1c89120b4cc1406c8eedc334aa7a9ce6" Target="StdinBinaryDisplay.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="260a13be15e64076a1eebd0acf2fc83d" Target="HelloWorld.gcomp::Configuration1" />
+						<ComponentConfigurationReferenceDependencySource Id="b4672a2c9d4f400fb0e0f79382b9f389" Target="BlinkCount.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -114,6 +115,7 @@
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="104bc81ba50141e8a8045d17d6133034" ModelDefinitionType="ComponentDefinition" Name="TestStreamRead.gcomp" StoragePath="picoG Framework Core\Test\TestStreamRead.gcomp\TestStreamRead.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="6848eba8c9444768a9841197539c3416" ModelDefinitionType="ComponentDefinition" Name="StdinBinaryDisplay.gcomp" StoragePath="picoG Framework Core\Test\StdinBinaryDisplay.gcomp\StdinBinaryDisplay.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="1f8e5eb9f983454a96ad4c4aa5f9e43b" ModelDefinitionType="ComponentDefinition" Name="HelloWorld.gcomp" StoragePath="picoG Framework Core\Test\HelloWorld.gcomp\HelloWorld.gcomp" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,EnvoyManager" Id="89b4349cd08140838457191b179a9ef4" ModelDefinitionType="ComponentDefinition" Name="BlinkCount.gcomp" StoragePath="picoG Framework Core\Test\BlinkCount.gcomp\BlinkCount.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
