@@ -14,8 +14,13 @@
 		<Item Name="Command Header Const.vi" Type="VI" URL="../Command Header Const.vi"/>
 		<Item Name="Command.ctl" Type="VI" URL="../Command.ctl"/>
 	</Item>
+	<Item Name="Processing" Type="Folder">
+		<Item Name="minivia.vi" Type="VI" URL="../../minivia.vi"/>
+	</Item>
+	<Item Name="Common Resources" Type="Folder">
+		<Item Name="VisaResource.lvclass" Type="LVClass" URL="../VisaResource/VisaResource.lvclass"/>
+	</Item>
 	<Item Name="DeployPlatform.lvclass" Type="LVClass" URL="../DeployPlatform/DeployPlatform.lvclass"/>
 	<Item Name="DeployResource.lvclass" Type="LVClass" URL="../DeployResource/DeployResource.lvclass"/>
 	<Item Name="PlatformPluginManager.lvclass" Type="LVClass" URL="../PlatformPluginManager/PlatformPluginManager.lvclass"/>
-	<Item Name="minivia.vi" Type="VI" URL="../../minivia.vi"/>
 </Library>
