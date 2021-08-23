@@ -65,10 +65,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8D0472E-0178-43DE-B343-E14B01A1B009}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
-				<Property Name="Bld_version.major" Type="Int">0</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">rp2040.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/ppl/platforms/rp2040.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -77,7 +75,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/ppl/platforms</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{149FD6C4-BF94-4F91-947E-5D2A1F444750}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{513958D7-42E0-498E-93AC-1E0CE2671A7C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RP2040.lvlib</Property>
@@ -96,7 +94,16 @@
 				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RP2040.lvlib/RP2040Platform.lvclass/Private</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RP2040 PPL</Property>
 				<Property Name="TgtF_internalName" Type="Str">RP2040 PPL</Property>
