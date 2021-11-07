@@ -13,19 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="images" Type="Folder">
-			<Item Name="G-16x16.ico" Type="Document" URL="../../images/G-16x16.ico"/>
-			<Item Name="G-16x16.png" Type="Document" URL="../../images/G-16x16.png"/>
-			<Item Name="G-94x112.png" Type="Document" URL="../../images/G-94x112.png"/>
-			<Item Name="G-128x128.png" Type="Document" URL="../../images/G-128x128.png"/>
-			<Item Name="G-w-bg-16x16.ico" Type="Document" URL="../../images/G-w-bg-16x16.ico"/>
-			<Item Name="G-w-bg-16x16.png" Type="Document" URL="../../images/G-w-bg-16x16.png"/>
 			<Item Name="Gbird-16-outline.ico" Type="Document" URL="../../images/Gbird-16-outline.ico"/>
 			<Item Name="Gbird-16.ico" Type="Document" URL="../../images/Gbird-16.ico"/>
 			<Item Name="pico_symbol_green_on_transparent_icon.ico" Type="Document" URL="../../images/pico_symbol_green_on_transparent_icon.ico"/>
-			<Item Name="simple-logo-96x35.png" Type="Document" URL="../../images/simple-logo-96x35.png"/>
-			<Item Name="simple-logo-389x141.png" Type="Document" URL="../../images/simple-logo-389x141.png"/>
-			<Item Name="simple-logo-w-bg-96x35.png" Type="Document" URL="../../images/simple-logo-w-bg-96x35.png"/>
-			<Item Name="simple-logo-w-bg-389x141.png" Type="Document" URL="../../images/simple-logo-w-bg-389x141.png"/>
 		</Item>
 		<Item Name="Main Menu.rtm" Type="Document" URL="../../PicoG-Processor/GVIWebProcessorApp/Main Menu.rtm"/>
 		<Item Name="PicoG-Processor.lvlib" Type="Library" URL="../../PicoG-Processor/PicoG-Processor.lvlib"/>
@@ -95,6 +85,9 @@
 				<Item Name="DeployPlatform.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/DeployPlatform/DeployPlatform.lvclass"/>
 				<Item Name="DeployResource.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/DeployResource/DeployResource.lvclass"/>
 				<Item Name="PlatformPluginManager.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/PlatformPluginManager/PlatformPluginManager.lvclass"/>
+				<Item Name="Device.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/Device/Device.lvclass"/>
+				<Item Name="DeviceManager.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/DeviceManager/DeviceManager.lvclass"/>
+				<Item Name="Create Error.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/Create Error.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
@@ -108,12 +101,12 @@
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Remove Whitespace from VIA.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/Remove Whitespace from VIA.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VIA Minify VI Constants.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/Reuse/VIA Minify VI Constants.vi"/>
 				<Item Name="VIA Minify all VIs.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/Reuse/VIA Minify all VIs.vi"/>
+				<Item Name="Remove Whitespace from VIA.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/Remove Whitespace from VIA.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
