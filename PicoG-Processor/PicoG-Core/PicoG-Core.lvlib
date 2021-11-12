@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="Processing" Type="Folder">
 		<Item Name="minivia.vi" Type="VI" URL="../../minivia.vi"/>
+		<Item Name="From 8601UTC.vi" Type="VI" URL="../From 8601UTC.vi"/>
 	</Item>
 	<Item Name="Common Resources" Type="Folder">
 		<Item Name="VisaResource.lvclass" Type="LVClass" URL="../VisaResource/VisaResource.lvclass"/>
