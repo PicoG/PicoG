@@ -17,16 +17,15 @@
 			<Item Name="GWebAppArrayPanel.lvclass" Type="LVClass" URL="../GWebAppArrayPanel/GWebAppArrayPanel.lvclass"/>
 			<Item Name="PlatformArrayPanel.lvclass" Type="LVClass" URL="../PlatformArrayPanel/PlatformArrayPanel.lvclass"/>
 		</Item>
-		<Item Name="Base" Type="Folder">
-			<Item Name="NavPanel.lvclass" Type="LVClass" URL="../NavPanel/NavPanel.lvclass"/>
-		</Item>
-		<Item Name="Main" Type="Folder">
-			<Item Name="GettingStarted.lvclass" Type="LVClass" URL="../GettingStarted/GettingStarted.lvclass"/>
-		</Item>
-		<Item Name="Nav Lists" Type="Folder">
+		<Item Name="List" Type="Folder">
 			<Item Name="AppListPanel.lvclass" Type="LVClass" URL="../AppListPanel/AppListPanel.lvclass"/>
 			<Item Name="DeviceListPanel.lvclass" Type="LVClass" URL="../DeviceListPanel/DeviceListPanel.lvclass"/>
 			<Item Name="PlatformListPanel.lvclass" Type="LVClass" URL="../PlatformListPanel/PlatformListPanel.lvclass"/>
+		</Item>
+		<Item Name="Main" Type="Folder">
+			<Item Name="AppDetailPanel.lvclass" Type="LVClass" URL="../AppDetailPanel/AppDetailPanel.lvclass"/>
+			<Item Name="GettingStarted.lvclass" Type="LVClass" URL="../GettingStarted/GettingStarted.lvclass"/>
+			<Item Name="PlatformConfigPanel.lvclass" Type="LVClass" URL="../PlatformConfigPanel/PlatformConfigPanel.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
@@ -35,9 +34,7 @@
 			<Item Name="Config Paths.vi" Type="VI" URL="../Config Paths.vi"/>
 		</Item>
 		<Item Name="Data Types" Type="Folder">
-			<Item Name="Events" Type="Folder">
-				<Item Name="Popout Nav Panel Event.ctl" Type="VI" URL="../Popout Nav Panel Event.ctl"/>
-			</Item>
+			<Item Name="Events" Type="Folder"/>
 			<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 		</Item>
 		<Item Name="Top VI FG.vi" Type="VI" URL="../App/Top VI FG.vi"/>
