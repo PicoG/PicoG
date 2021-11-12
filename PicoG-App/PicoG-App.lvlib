@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="Data" Type="Folder">
+		<Item Name="Device.lvclass" Type="LVClass" URL="../Device/Device.lvclass"/>
 		<Item Name="ViaApp.lvclass" Type="LVClass" URL="../ViaApp/ViaApp.lvclass"/>
 	</Item>
 	<Item Name="Panels" Type="Folder">
