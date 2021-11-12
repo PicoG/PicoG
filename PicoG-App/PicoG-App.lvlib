@@ -12,19 +12,20 @@
 		<Item Name="ViaApp.lvclass" Type="LVClass" URL="../ViaApp/ViaApp.lvclass"/>
 	</Item>
 	<Item Name="Panels" Type="Folder">
-		<Item Name="Arrays Contents" Type="Folder">
-			<Item Name="BoardArrayPanel.lvclass" Type="LVClass" URL="../BoardArrayPanel/BoardArrayPanel.lvclass"/>
-			<Item Name="DeviceArrayPanel.lvclass" Type="LVClass" URL="../DeviceArrayPanel/DeviceArrayPanel.lvclass"/>
-			<Item Name="GWebAppArrayPanel.lvclass" Type="LVClass" URL="../GWebAppArrayPanel/GWebAppArrayPanel.lvclass"/>
-			<Item Name="PlatformArrayPanel.lvclass" Type="LVClass" URL="../PlatformArrayPanel/PlatformArrayPanel.lvclass"/>
-		</Item>
 		<Item Name="List" Type="Folder">
 			<Item Name="AppListPanel.lvclass" Type="LVClass" URL="../AppListPanel/AppListPanel.lvclass"/>
 			<Item Name="DeviceListPanel.lvclass" Type="LVClass" URL="../DeviceListPanel/DeviceListPanel.lvclass"/>
 			<Item Name="PlatformListPanel.lvclass" Type="LVClass" URL="../PlatformListPanel/PlatformListPanel.lvclass"/>
 		</Item>
+		<Item Name="List Items" Type="Folder">
+			<Item Name="BoardArrayPanel.lvclass" Type="LVClass" URL="../BoardArrayPanel/BoardArrayPanel.lvclass"/>
+			<Item Name="DeviceArrayPanel.lvclass" Type="LVClass" URL="../DeviceArrayPanel/DeviceArrayPanel.lvclass"/>
+			<Item Name="GWebAppArrayPanel.lvclass" Type="LVClass" URL="../GWebAppArrayPanel/GWebAppArrayPanel.lvclass"/>
+			<Item Name="PlatformArrayPanel.lvclass" Type="LVClass" URL="../PlatformArrayPanel/PlatformArrayPanel.lvclass"/>
+		</Item>
 		<Item Name="Main" Type="Folder">
 			<Item Name="AppDetailPanel.lvclass" Type="LVClass" URL="../AppDetailPanel/AppDetailPanel.lvclass"/>
+			<Item Name="DeviceDetailPanel.lvclass" Type="LVClass" URL="../DeviceDetailPanel/DeviceDetailPanel.lvclass"/>
 			<Item Name="GettingStarted.lvclass" Type="LVClass" URL="../GettingStarted/GettingStarted.lvclass"/>
 			<Item Name="PlatformConfigPanel.lvclass" Type="LVClass" URL="../PlatformConfigPanel/PlatformConfigPanel.lvclass"/>
 		</Item>
@@ -37,6 +38,9 @@
 		<Item Name="Data Types" Type="Folder">
 			<Item Name="Events" Type="Folder"/>
 			<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
+		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Init New Map.vim" Type="VI" URL="../Init New Map.vim"/>
 		</Item>
 		<Item Name="Top VI FG.vi" Type="VI" URL="../App/Top VI FG.vi"/>
 	</Item>
