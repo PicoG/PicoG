@@ -21,7 +21,9 @@
 	<Item Name="Common Resources" Type="Folder">
 		<Item Name="VisaResource.lvclass" Type="LVClass" URL="../VisaResource/VisaResource.lvclass"/>
 	</Item>
-	<Item Name="DeployPlatform.lvclass" Type="LVClass" URL="../DeployPlatform/DeployPlatform.lvclass"/>
-	<Item Name="DeployResource.lvclass" Type="LVClass" URL="../DeployResource/DeployResource.lvclass"/>
-	<Item Name="PlatformPluginManager.lvclass" Type="LVClass" URL="../PlatformPluginManager/PlatformPluginManager.lvclass"/>
+	<Item Name="Platform.lvclass" Type="LVClass" URL="../Platform/Platform.lvclass"/>
+	<Item Name="Resource.lvclass" Type="LVClass" URL="../Resource/Resource.lvclass"/>
+	<Item Name="PlatformManager.lvclass" Type="LVClass" URL="../PlatformManager/PlatformManager.lvclass"/>
+	<Item Name="Terminal.lvclass" Type="LVClass" URL="../Terminal/Terminal.lvclass"/>
+	<Item Name="Create Error.vi" Type="VI" URL="../Create Error.vi"/>
 </Library>
