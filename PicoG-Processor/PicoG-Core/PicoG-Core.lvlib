@@ -17,6 +17,11 @@
 	<Item Name="Processing" Type="Folder">
 		<Item Name="minivia.vi" Type="VI" URL="../../minivia.vi"/>
 		<Item Name="From 8601UTC.vi" Type="VI" URL="../From 8601UTC.vi"/>
+		<Item Name="Remove Whitespace from VIA.vi" Type="VI" URL="../../Remove Whitespace from VIA.vi"/>
+		<Item Name="VIA Minify all VIs.vi" Type="VI" URL="../../../Reuse/VIA Minify all VIs.vi"/>
+		<Item Name="VIA Minify VI Constants.vi" Type="VI" URL="../../../Reuse/VIA Minify VI Constants.vi"/>
+		<Item Name="VIA Minify VI Locals.vi" Type="VI" URL="../../../Reuse/VIA Minify VI Locals.vi"/>
+		<Item Name="Insert Replacement String.vi" Type="VI" URL="../../../Reuse/Insert Replacement String.vi"/>
 	</Item>
 	<Item Name="Common Resources" Type="Folder">
 		<Item Name="VisaResource.lvclass" Type="LVClass" URL="../VisaResource/VisaResource.lvclass"/>

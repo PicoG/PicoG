@@ -38,7 +38,6 @@
 			<Item Name="Config Paths.vi" Type="VI" URL="../Config Paths.vi"/>
 		</Item>
 		<Item Name="Data Types" Type="Folder">
-			<Item Name="Events" Type="Folder"/>
 			<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder"/>
