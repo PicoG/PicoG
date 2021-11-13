@@ -71,8 +71,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Cleanup.vi" Type="VI" URL="../../PicoG-App/App/Cleanup.vi"/>
-			<Item Name="Ctor.vi" Type="VI" URL="../../PicoG-App/App/Ctor.vi"/>
 			<Item Name="Init New Map.vim" Type="VI" URL="../../PicoG-App/Init New Map.vim"/>
 			<Item Name="PicoG-Core.lvlibp" Type="LVLibp" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp">
 				<Item Name="Constants" Type="Folder">
@@ -110,7 +108,6 @@
 				<Item Name="Remove Whitespace from VIA.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/Remove Whitespace from VIA.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			</Item>
-			<Item Name="Run.vi" Type="VI" URL="../../PicoG-App/App/Run.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PicoG App EXE" Type="EXE">
