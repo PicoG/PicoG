@@ -71,6 +71,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Cleanup.vi" Type="VI" URL="../../PicoG-App/App/Cleanup.vi"/>
+			<Item Name="Ctor.vi" Type="VI" URL="../../PicoG-App/App/Ctor.vi"/>
+			<Item Name="Init New Map.vim" Type="VI" URL="../../PicoG-App/Init New Map.vim"/>
 			<Item Name="PicoG-Core.lvlibp" Type="LVLibp" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp">
 				<Item Name="Constants" Type="Folder">
 					<Item Name="Command Header Const.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/PicoG-Core/Command Header Const.vi"/>
@@ -107,6 +110,7 @@
 				<Item Name="Remove Whitespace from VIA.vi" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/PicoG-Processor/Remove Whitespace from VIA.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="../../Builds/picoG/ppl/PicoG-Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			</Item>
+			<Item Name="Run.vi" Type="VI" URL="../../PicoG-App/App/Run.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PicoG App EXE" Type="EXE">
@@ -127,7 +131,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C35CDED-A35A-4774-8BBB-A4BED8D11B5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">picoG-App.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/NI_AB_PROJECTNAME.exe</Property>
@@ -137,7 +141,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/bin/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Gbird-16-outline.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{11CAC841-FA13-43F5-B70A-26D01DDE1A33}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9ADC178A-8FC6-4393-B94E-23A4B4E9AD7C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PicoG-App.lvlib/App Main.vi</Property>
@@ -145,6 +149,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">PicoG App EXE</Property>
 				<Property Name="TgtF_internalName" Type="Str">PicoG App EXE</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 NI</Property>
@@ -164,7 +169,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6E1D96CC-C323-46D1-AB36-982C256FDFE1}</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">picoG-App.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/ppl/NI_AB_PROJECTNAME.lvlibp</Property>

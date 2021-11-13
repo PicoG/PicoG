@@ -12,6 +12,11 @@
 		<Item Name="ViaApp.lvclass" Type="LVClass" URL="../ViaApp/ViaApp.lvclass"/>
 	</Item>
 	<Item Name="Panels" Type="Folder">
+		<Item Name="Details" Type="Folder">
+			<Item Name="AppDetailPanel.lvclass" Type="LVClass" URL="../AppDetailPanel/AppDetailPanel.lvclass"/>
+			<Item Name="DeviceDetailPanel.lvclass" Type="LVClass" URL="../DeviceDetailPanel/DeviceDetailPanel.lvclass"/>
+			<Item Name="PlatformConfigPanel.lvclass" Type="LVClass" URL="../PlatformConfigPanel/PlatformConfigPanel.lvclass"/>
+		</Item>
 		<Item Name="List" Type="Folder">
 			<Item Name="AppListPanel.lvclass" Type="LVClass" URL="../AppListPanel/AppListPanel.lvclass"/>
 			<Item Name="DeviceListPanel.lvclass" Type="LVClass" URL="../DeviceListPanel/DeviceListPanel.lvclass"/>
@@ -23,11 +28,8 @@
 			<Item Name="GWebAppArrayPanel.lvclass" Type="LVClass" URL="../GWebAppArrayPanel/GWebAppArrayPanel.lvclass"/>
 			<Item Name="PlatformArrayPanel.lvclass" Type="LVClass" URL="../PlatformArrayPanel/PlatformArrayPanel.lvclass"/>
 		</Item>
-		<Item Name="Main" Type="Folder">
-			<Item Name="AppDetailPanel.lvclass" Type="LVClass" URL="../AppDetailPanel/AppDetailPanel.lvclass"/>
-			<Item Name="DeviceDetailPanel.lvclass" Type="LVClass" URL="../DeviceDetailPanel/DeviceDetailPanel.lvclass"/>
+		<Item Name="MiscMain" Type="Folder">
 			<Item Name="GettingStarted.lvclass" Type="LVClass" URL="../GettingStarted/GettingStarted.lvclass"/>
-			<Item Name="PlatformConfigPanel.lvclass" Type="LVClass" URL="../PlatformConfigPanel/PlatformConfigPanel.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
@@ -39,15 +41,13 @@
 			<Item Name="Events" Type="Folder"/>
 			<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 		</Item>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Init New Map.vim" Type="VI" URL="../Init New Map.vim"/>
-		</Item>
-		<Item Name="Top VI FG.vi" Type="VI" URL="../App/Top VI FG.vi"/>
+		<Item Name="Utilities" Type="Folder"/>
+		<Item Name="Top VI FG.vi" Type="VI" URL="../picoG/Top VI FG.vi"/>
 	</Item>
 	<Item Name="Watchers" Type="Folder">
 		<Item Name="App Watcher.lvclass" Type="LVClass" URL="../App Watcher/App Watcher.lvclass"/>
 		<Item Name="Device Watcher.lvclass" Type="LVClass" URL="../Device Watcher/Device Watcher.lvclass"/>
 	</Item>
-	<Item Name="App Main.vi" Type="VI" URL="../App Main.vi"/>
-	<Item Name="App.lvclass" Type="LVClass" URL="../App/App.lvclass"/>
+	<Item Name="picoG Main.vi" Type="VI" URL="../picoG Main.vi"/>
+	<Item Name="picoG.lvclass" Type="LVClass" URL="../picoG/picoG.lvclass"/>
 </Library>
