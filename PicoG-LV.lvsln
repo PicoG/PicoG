@@ -7,9 +7,11 @@
 
   <Config Name="Release"/>
 
-  <Item ID="B4F35ECC-10F9-4CF1-9B76-422369D3" Type="Project" Version="1.1">
-    <Info Path="..\lvproj\PicoG-Cache.lvproj" X64="FALSE">
-      <Config Name="Debug"/>
+  <Item ID="BC1B3EE6-9972-4D1F-96C5-A0A14A3E" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\PicoG-Exe.lvproj" X64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="picoG Exe" Target="My Computer"/>
+      </Config>
       <Config Name="Release"/>
     </Info>
   </Item>
@@ -32,10 +34,11 @@
     </Info>
   </Item>
 
-  <Item ID="BAF23CAB-4F58-4104-8EB1-02781FB2" Type="Project" Version="1.1">
-    <Info Path="..\lvproj\PicoG-Processor.lvproj" X64="FALSE">
+  <Item ID="7F78274A-5620-4DB3-8D5E-D47F8E04" Type="Project" Version="1.1">
+    <Info Path="..\lvproj\PicoG-App.lvproj" X64="FALSE">
       <Config Name="Debug">
-        <Debug Spec="picoG Watcher" Target="My Computer"/>
+        <Debug Spec="PicoG App EXE" Target="My Computer"/>
+        <Debug Spec="PicoG App PPL" Target="My Computer"/>
       </Config>
       <Config Name="Release"/>
     </Info>
