@@ -38,6 +38,7 @@
 			<Item Name="Config Paths.vi" Type="VI" URL="../Config Paths.vi"/>
 		</Item>
 		<Item Name="Data Types" Type="Folder">
+			<Item Name="Deploy Data.ctl" Type="VI" URL="../Deploy Data.ctl"/>
 			<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder"/>

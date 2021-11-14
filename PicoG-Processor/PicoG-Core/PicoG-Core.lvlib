@@ -31,4 +31,5 @@
 	<Item Name="PlatformManager.lvclass" Type="LVClass" URL="../PlatformManager/PlatformManager.lvclass"/>
 	<Item Name="Terminal.lvclass" Type="LVClass" URL="../Terminal/Terminal.lvclass"/>
 	<Item Name="Create Error.vi" Type="VI" URL="../Create Error.vi"/>
+	<Item Name="PNG Loader Tool.vi" Type="VI" URL="../PNG Loader Tool.vi"/>
 </Library>
