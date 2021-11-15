@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5F2B118C4B78F328F172B1CB034B071280867FD2333E52FB244C0F8DDFF62C448507A55AD1BEC904FCA69601AB8DC18ABCDBC6E25828083C019B164391AB863E" Timestamp="1D796E98C8A63C1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F28FDA96C191C3263204FD7A2743D1626143FC34E57534B1EB2832BFB96D26FA3F1B0641EBDBDF3999EC92C99C7D35B8DE4D6C3D6CB424116415A7EE8ADD225C" Timestamp="1D7D9984E81F1B2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -37,10 +37,10 @@
 		<DiagramUnplacedItems Id="2d9b681277164001b22a613f3ae6d3db" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="558426d52af14afc8c71774c866185eb" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="8fb3cccb56e14063a4e46ed62bb2809c">
-			<WhileLoop Bounds="385 135 415 245" DiagramId="ca27ca28a78b415188c684b7701a1bf8" Id="5f911b69080246589113933184af629d">
-				<LoopIteration Bounds="90 120 15 15" Id="4886cb5f922b4659862157f0fc88d28f" />
-				<LoopCondition Bounds="385 215 15 15" Id="4b94b44164b84d829e2e0cb5f6f3711f" />
-				<MethodCall Bounds="270 95 40 40" Id="99d94c6369304ad7a59f4d586d27d95d" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\Stdio\\Println.gvi&quot;" Signature="@317fde770b1d491a9d3e9a47d71a9033" Target="picoG::Stdio::Println.gvi" xmlns="http://www.ni.com/MocCommon">
+			<WhileLoop Bounds="270 165 300 150" DiagramId="ca27ca28a78b415188c684b7701a1bf8" Id="5f911b69080246589113933184af629d">
+				<LoopIteration Bounds="135 90 15 15" Id="4886cb5f922b4659862157f0fc88d28f" />
+				<LoopCondition Bounds="250 115 15 15" Id="4b94b44164b84d829e2e0cb5f6f3711f" />
+				<MethodCall Bounds="235 65 40 40" Id="99d94c6369304ad7a59f4d586d27d95d" ResolveFailedHint="&quot;C:\\dev\\picoG\\PicoG\\picoG Framework Core\\picoG.gcomp\\Stdio\\Println.gvi&quot;" Signature="@317fde770b1d491a9d3e9a47d71a9033" Target="picoG::Stdio::Println.gvi" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="String" />
@@ -48,39 +48,39 @@
 					</p.MethodDeclaration>
 					<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<FormatValue Bounds="190 80 40 40" Id="83db55fa583a4abfac66200aa79022db" />
-				<Literal Bounds="20 95 140 15" DataType="String" Id="c4937a38dd7e4f9d9038ca3a16d9932d" Label="e0375bef38204b9ba527347ae9ce059b" xmlns="http://www.ni.com/MocCommon">
+				<FormatValue Bounds="175 50 40 40" Id="83db55fa583a4abfac66200aa79022db" />
+				<Literal Bounds="10 65 140 15" DataType="String" Id="c4937a38dd7e4f9d9038ca3a16d9932d" Label="e0375bef38204b9ba527347ae9ce059b" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>Hello LabWORLD %d!</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
-				<NodeLabel AttachedTo="c4937a38dd7e4f9d9038ca3a16d9932d" Bounds="20 77 30 15" Id="e0375bef38204b9ba527347ae9ce059b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="c4937a38dd7e4f9d9038ca3a16d9932d" Bounds="10 47 30 15" Id="e0375bef38204b9ba527347ae9ce059b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>format string</p.Text>
 				</NodeLabel>
-				<Wire Id="c5e0d299757d4bac806fd957ceb043e2" Joints="N(c4937a38dd7e4f9d9038ca3a16d9932d:Out)|(160,100) N(83db55fa583a4abfac66200aa79022db:format string)|(190,100)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="a0373c6c34924f889eea9538346adf79" Joints="N(4886cb5f922b4659862157f0fc88d28f:Output)|(105,125) h(74) v(-10) N(83db55fa583a4abfac66200aa79022db:value)|(190,115)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="95474f87d73646008932589ba9114793" Joints="N(83db55fa583a4abfac66200aa79022db:output string)|(230,100) N(99d94c6369304ad7a59f4d586d27d95d:L0)|(270,100)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Literal Bounds="330 215 25 15" DataType="Boolean" Id="8cd993711803405482411d910ae5d51d" Label="25133716353c4be4a1dd235a5c3af606" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="c5e0d299757d4bac806fd957ceb043e2" Joints="N(c4937a38dd7e4f9d9038ca3a16d9932d:Out)|(150,70) N(83db55fa583a4abfac66200aa79022db:format string)|(175,70)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="a0373c6c34924f889eea9538346adf79" Joints="N(4886cb5f922b4659862157f0fc88d28f:Output)|(150,95) h(14) v(-10) N(83db55fa583a4abfac66200aa79022db:value)|(175,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="95474f87d73646008932589ba9114793" Joints="N(83db55fa583a4abfac66200aa79022db:output string)|(215,70) N(99d94c6369304ad7a59f4d586d27d95d:L0)|(235,70)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="195 115 25 15" DataType="Boolean" Id="8cd993711803405482411d910ae5d51d" Label="25133716353c4be4a1dd235a5c3af606" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>False</p.Data>
 					<BooleanBehavior />
 				</Literal>
-				<NodeLabel AttachedTo="8cd993711803405482411d910ae5d51d" Bounds="330 197 30 15" Id="25133716353c4be4a1dd235a5c3af606" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="8cd993711803405482411d910ae5d51d" Bounds="195 97 30 15" Id="25133716353c4be4a1dd235a5c3af606" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>stop</p.Text>
 				</NodeLabel>
-				<Wire Id="7f842730f08441698b495eb7a33a2c94" Joints="N(8cd993711803405482411d910ae5d51d:Out)|(355,220) N(4b94b44164b84d829e2e0cb5f6f3711f:Input)|(385,220)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wait Bounds="265 15 40 40" Id="3328fe6f726141f4b811177e31f349d2" />
-				<Literal Bounds="190 30 45 15" DataType="UInt32" Id="ee4173489cbb41e9ac72bc9fca2ba0a7" Label="7a825da75bb54833a9c936b8baf344cc" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="7f842730f08441698b495eb7a33a2c94" Joints="N(8cd993711803405482411d910ae5d51d:Out)|(220,120) N(4b94b44164b84d829e2e0cb5f6f3711f:Input)|(250,120)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="110 10 40 40" Id="3328fe6f726141f4b811177e31f349d2" />
+				<Literal Bounds="35 25 45 15" DataType="UInt32" Id="ee4173489cbb41e9ac72bc9fca2ba0a7" Label="7a825da75bb54833a9c936b8baf344cc" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>2000</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 				</Literal>
-				<NodeLabel AttachedTo="ee4173489cbb41e9ac72bc9fca2ba0a7" Bounds="190 12 30 15" Id="7a825da75bb54833a9c936b8baf344cc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="ee4173489cbb41e9ac72bc9fca2ba0a7" Bounds="35 7 30 15" Id="7a825da75bb54833a9c936b8baf344cc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<Wire Id="2a74d614ea6c45f2a146e792562fe71c" Joints="N(ee4173489cbb41e9ac72bc9fca2ba0a7:Out)|(235,35) N(3328fe6f726141f4b811177e31f349d2:time to wait)|(265,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="2a74d614ea6c45f2a146e792562fe71c" Joints="N(ee4173489cbb41e9ac72bc9fca2ba0a7:Out)|(80,30) N(3328fe6f726141f4b811177e31f349d2:time to wait)|(110,30)" xmlns="http://www.ni.com/PlatformFramework" />
 			</WhileLoop>
-			<WhileLoop Bounds="390 405 405 150" DiagramId="8dba9d7c4cbf47a796f60a7158f38711" Id="8113a7cee74130b359fe00a9ce66b4">
-				<LoopIteration Bounds="5 120 15 15" Id="9ef8a666e3ee4259a756a882b8dc3ec9" />
-				<LoopCondition Bounds="375 120 15 15" Id="f914b31e192425ab8e116b5d175c2dd" />
-				<MethodCall Bounds="45 50 40 40" Id="ed2fd2254b4c473eadd2897d4052c2e8" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\Write.gvi&quot;" Signature="@f2ecef34be8d4ed898bb78d85bec1d93" Target="picoG::GPIO::Write.gvi" xmlns="http://www.ni.com/MocCommon">
+			<WhileLoop Bounds="400 330 170 145" DiagramId="8dba9d7c4cbf47a796f60a7158f38711" Id="8113a7cee74130b359fe00a9ce66b4">
+				<LoopIteration Bounds="0 120 15 15" Id="9ef8a666e3ee4259a756a882b8dc3ec9" />
+				<LoopCondition Bounds="135 50 15 15" Id="f914b31e192425ab8e116b5d175c2dd" />
+				<MethodCall Bounds="35 40 40 40" Id="ed2fd2254b4c473eadd2897d4052c2e8" ResolveFailedHint="&quot;C:\\dev\\picoG\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\Write.gvi&quot;" Signature="@f2ecef34be8d4ed898bb78d85bec1d93" Target="picoG::GPIO::Write.gvi" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="Pin in" />
@@ -92,32 +92,32 @@
 					<Terminal DataType="Boolean" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Wire Id="292d1ffa938f43f3928f0508826de74a" Joints="N(e52b300786334f14b5cdad7a79cab849:i0)|(4,55) N(ed2fd2254b4c473eadd2897d4052c2e8:L0)|(45,55)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="71421596714742ff9657b2c9e665e479" Joints="N(f8199d8256ae43af92b29f573066ba8b:i0)|(4,35) h(35) B(1) N(af1844a205c44346aea53777e770e226:x)|(105,35) B(1) v(30) N(ed2fd2254b4c473eadd2897d4052c2e8:L1)|(45,65)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Not Bounds="105 25 25 20" Id="af1844a205c44346aea53777e770e226" />
-				<Wire Id="6dc91a84e9a44f73b956046ba2fdc1e9" Joints="N(af1844a205c44346aea53777e770e226:.not. x?)|(130,35) N(d77574c15a5d48ae84946393c572d931:8dba9d7c4cbf47a796f60a7158f38711)|(391,35)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Literal Bounds="320 120 25 15" DataType="Boolean" Id="9a05e3bd24d9486db3a95f26897c6c94" Label="491dfc6204c34165998508180644203e" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="292d1ffa938f43f3928f0508826de74a" Joints="N(e52b300786334f14b5cdad7a79cab849:i0)|(4,45) N(ed2fd2254b4c473eadd2897d4052c2e8:L0)|(35,45)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="71421596714742ff9657b2c9e665e479" Joints="N(f8199d8256ae43af92b29f573066ba8b:i0)|(4,25) h(25) B(1) N(af1844a205c44346aea53777e770e226:x)|(95,25) B(1) v(30) N(ed2fd2254b4c473eadd2897d4052c2e8:L1)|(35,55)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Not Bounds="95 15 25 20" Id="af1844a205c44346aea53777e770e226" />
+				<Wire Id="6dc91a84e9a44f73b956046ba2fdc1e9" Joints="N(af1844a205c44346aea53777e770e226:.not. x?)|(120,25) N(d77574c15a5d48ae84946393c572d931:8dba9d7c4cbf47a796f60a7158f38711)|(156,25)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="100 50 25 15" DataType="Boolean" Id="9a05e3bd24d9486db3a95f26897c6c94" Label="491dfc6204c34165998508180644203e" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>False</p.Data>
 					<BooleanBehavior />
 				</Literal>
-				<NodeLabel AttachedTo="9a05e3bd24d9486db3a95f26897c6c94" Bounds="320 102 30 15" Id="491dfc6204c34165998508180644203e" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="9a05e3bd24d9486db3a95f26897c6c94" Bounds="100 32 30 15" Id="491dfc6204c34165998508180644203e" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>stop</p.Text>
 				</NodeLabel>
-				<Wire Id="c61f79d068b842a99f75aaa50b035530" Joints="N(9a05e3bd24d9486db3a95f26897c6c94:Out)|(345,125) N(f914b31e192425ab8e116b5d175c2dd:Input)|(375,125)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wait Bounds="200 75 40 40" Id="36a92de122664e96b4c7e1fde10d2dbf" />
-				<Literal Bounds="130 90 40 15" DataType="UInt32" Id="669175cb8a33445680094d77c750a7c8" Label="32c374f4c2dd4385b33661c050f85c42" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>250</p.Data>
+				<Wire Id="c61f79d068b842a99f75aaa50b035530" Joints="N(9a05e3bd24d9486db3a95f26897c6c94:Out)|(125,55) N(f914b31e192425ab8e116b5d175c2dd:Input)|(135,55)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="100 80 40 40" Id="36a92de122664e96b4c7e1fde10d2dbf" />
+				<Literal Bounds="30 95 40 15" DataType="UInt32" Id="669175cb8a33445680094d77c750a7c8" Label="32c374f4c2dd4385b33661c050f85c42" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>50</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 				</Literal>
-				<NodeLabel AttachedTo="669175cb8a33445680094d77c750a7c8" Bounds="130 72 30 15" Id="32c374f4c2dd4385b33661c050f85c42" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="669175cb8a33445680094d77c750a7c8" Bounds="30 77 30 15" Id="32c374f4c2dd4385b33661c050f85c42" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<Wire Id="eaf3fc22e0814a0798b984df51c1761b" Joints="N(669175cb8a33445680094d77c750a7c8:Out)|(170,95) N(36a92de122664e96b4c7e1fde10d2dbf:time to wait)|(200,95)" xmlns="http://www.ni.com/PlatformFramework" />
-				<LoopTunnel Bounds="-4 55 13 10" Docking="Left" Id="e52b300786334f14b5cdad7a79cab849" Terminals="o0=8a6e088164ef4ab890cfb9279ca1e90c, i0=292d1ffa938f43f3928f0508826de74a" />
-				<RightShiftRegister Bounds="396 35 13 10" Docking="Right" Id="d77574c15a5d48ae84946393c572d931" Terminals="8113a7cee74130b359fe00a9ce66b4, 8dba9d7c4cbf47a796f60a7158f38711=6dc91a84e9a44f73b956046ba2fdc1e9" />
-				<LeftShiftRegister Bounds="-4 35 13 10" Docking="Left" Id="f8199d8256ae43af92b29f573066ba8b" RightRegister="d77574c15a5d48ae84946393c572d931" Terminals="o0=896025dafe2141f4a6eb6f885d0c7793, i0=71421596714742ff9657b2c9e665e479" />
+				<Wire Id="eaf3fc22e0814a0798b984df51c1761b" Joints="N(669175cb8a33445680094d77c750a7c8:Out)|(70,100) N(36a92de122664e96b4c7e1fde10d2dbf:time to wait)|(100,100)" xmlns="http://www.ni.com/PlatformFramework" />
+				<LoopTunnel Bounds="-4 45 13 10" Docking="Left" Id="e52b300786334f14b5cdad7a79cab849" Terminals="o0=8a6e088164ef4ab890cfb9279ca1e90c, i0=292d1ffa938f43f3928f0508826de74a" />
+				<RightShiftRegister Bounds="161 25 13 10" Docking="Right" Id="d77574c15a5d48ae84946393c572d931" Terminals="8113a7cee74130b359fe00a9ce66b4, 8dba9d7c4cbf47a796f60a7158f38711=6dc91a84e9a44f73b956046ba2fdc1e9" />
+				<LeftShiftRegister Bounds="-4 25 13 10" Docking="Left" Id="f8199d8256ae43af92b29f573066ba8b" RightRegister="d77574c15a5d48ae84946393c572d931" Terminals="o0=896025dafe2141f4a6eb6f885d0c7793, i0=71421596714742ff9657b2c9e665e479" />
 			</WhileLoop>
-			<Literal Bounds="145 460 40 15" DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Id="f80751e348794a0994c95e4272f166ca" Label="a9b1cd9960f44ce09eb58248510b19c3" p4:ControlDefinitionChecksum="A4F864pun1PwvH7MVtfLK2/Cw+0iMCOzE5hogNyEsZc=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="225 375 40 15" DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Id="f80751e348794a0994c95e4272f166ca" Label="a9b1cd9960f44ce09eb58248510b19c3" p4:ControlDefinitionChecksum="A4F864pun1PwvH7MVtfLK2/Cw+0iMCOzE5hogNyEsZc=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>25</p.Data>
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="picoG::Types::Pin.gtype" />
@@ -125,10 +125,10 @@
 				</p4:p.TypeDefinitionTargets>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 			</Literal>
-			<NodeLabel AttachedTo="f80751e348794a0994c95e4272f166ca" Bounds="145 443 17 14" Id="a9b1cd9960f44ce09eb58248510b19c3" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="f80751e348794a0994c95e4272f166ca" Bounds="225 358 17 14" Id="a9b1cd9960f44ce09eb58248510b19c3" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Pin</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="200 460 40 40" Id="4aa32b5cbb8c4b58b67be7b8a2744ba3" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\Init.gvi&quot;" Signature="@1723bf71f30b4c6fbb9daf13823895ac" Target="picoG::GPIO::Init.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="280 375 40 40" Id="4aa32b5cbb8c4b58b67be7b8a2744ba3" ResolveFailedHint="&quot;C:\\dev\\picoG\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\Init.gvi&quot;" Signature="@1723bf71f30b4c6fbb9daf13823895ac" Target="picoG::GPIO::Init.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Pin in" />
@@ -138,8 +138,8 @@
 				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<Wire Id="c26bf8dc69f543c6a31247edf2511463" Joints="N(f80751e348794a0994c95e4272f166ca:Out)|(185,465) N(4aa32b5cbb8c4b58b67be7b8a2744ba3:L0)|(200,465)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="265 460 40 40" Id="5ab3c6acede8452ca0a05d039dd0b37d" ResolveFailedHint="&quot;C:\\dev\\Vireo\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\SetOutput.gvi&quot;" Signature="@2927900de42f41d4b8b93f6ef58b3555" Target="picoG::GPIO::SetOutput.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="c26bf8dc69f543c6a31247edf2511463" Joints="N(f80751e348794a0994c95e4272f166ca:Out)|(265,380) N(4aa32b5cbb8c4b58b67be7b8a2744ba3:L0)|(280,380)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="345 375 40 40" Id="5ab3c6acede8452ca0a05d039dd0b37d" ResolveFailedHint="&quot;C:\\dev\\picoG\\PicoG\\picoG Framework Core\\picoG.gcomp\\GPIO\\SetOutput.gvi&quot;" Signature="@2927900de42f41d4b8b93f6ef58b3555" Target="picoG::GPIO::SetOutput.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Pin in" />
@@ -151,16 +151,16 @@
 				<Terminal DataType="Boolean" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@eefe3436e2dc45c088ad03b7ce3132a7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<Wire Id="9e3bd404a94e47ecad7826028e8cf9ca" Joints="N(4aa32b5cbb8c4b58b67be7b8a2744ba3:R0)|(240,465) N(5ab3c6acede8452ca0a05d039dd0b37d:L0)|(265,465)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="215 440 25 15" DataType="Boolean" Id="7602059fe9f54b9a9a7e05696a002d98" Label="208c874038b34c2f846e208d84ea9625" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="9e3bd404a94e47ecad7826028e8cf9ca" Joints="N(4aa32b5cbb8c4b58b67be7b8a2744ba3:R0)|(320,380) N(5ab3c6acede8452ca0a05d039dd0b37d:L0)|(345,380)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="295 355 25 15" DataType="Boolean" Id="7602059fe9f54b9a9a7e05696a002d98" Label="208c874038b34c2f846e208d84ea9625" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>True</p.Data>
 				<BooleanBehavior />
 			</Literal>
-			<NodeLabel AttachedTo="7602059fe9f54b9a9a7e05696a002d98" Bounds="215 422 30 15" Id="208c874038b34c2f846e208d84ea9625" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="7602059fe9f54b9a9a7e05696a002d98" Bounds="295 337 30 15" Id="208c874038b34c2f846e208d84ea9625" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Is Output?</p.Text>
 			</NodeLabel>
-			<Wire Id="896025dafe2141f4a6eb6f885d0c7793" Joints="N(7602059fe9f54b9a9a7e05696a002d98:Out)|(240,445) h(15) B(1) N(f8199d8256ae43af92b29f573066ba8b:o0)|(386,445) B(1) v(30) N(5ab3c6acede8452ca0a05d039dd0b37d:L1)|(265,475)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="8a6e088164ef4ab890cfb9279ca1e90c" Joints="N(5ab3c6acede8452ca0a05d039dd0b37d:R0)|(305,465) N(e52b300786334f14b5cdad7a79cab849:o0)|(386,465)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="896025dafe2141f4a6eb6f885d0c7793" Joints="N(7602059fe9f54b9a9a7e05696a002d98:Out)|(320,360) h(15) B(1) N(f8199d8256ae43af92b29f573066ba8b:o0)|(396,360) B(1) v(30) N(5ab3c6acede8452ca0a05d039dd0b37d:L1)|(345,390)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="8a6e088164ef4ab890cfb9279ca1e90c" Joints="N(5ab3c6acede8452ca0a05d039dd0b37d:R0)|(385,380) N(e52b300786334f14b5cdad7a79cab849:o0)|(396,380)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="3ecffd06458a471bac9262cff8078bfd" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 	</VirtualInstrument>
