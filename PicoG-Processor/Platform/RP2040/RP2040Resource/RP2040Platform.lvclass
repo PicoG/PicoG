@@ -89,6 +89,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
+		<Item Name="Write VIA.vi" Type="VI" URL="../Write VIA.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!E%6"J9W^(,5.P=G5O&lt;(:M;7*Q%&amp;*F=W^V=G.F,GRW9WRB=X-!!!B3:8.P&gt;8*D:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1$$`````!V:*11![1(!!(A!!*"&amp;1;7.P2SV$&lt;X*F,GRW&lt;'FC=""3:8.P&gt;8*D:3ZM&gt;G.M98.T!!!,5G6T&lt;X6S9W5A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+		</Item>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Auto Resource" Type="Property Definition">
