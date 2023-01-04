@@ -94,10 +94,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4BD6DCF4-6B98-47BE-91EF-87CAC6846FF1}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">0</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">picoG.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/bin/picoG.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -106,7 +104,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/bin/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Gbird-16-outline.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08E41F54-07FA-4356-9513-0C75605D0039}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{891A5D6D-AB3B-42F8-9445-1117D48D7E5C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SplashLoader.vi</Property>
@@ -121,7 +119,6 @@
 				<Property Name="TgtF_productName" Type="Str">picoG Exe</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7C1F2543-356C-4C38-88A1-707B5B61E361}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">picoG.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

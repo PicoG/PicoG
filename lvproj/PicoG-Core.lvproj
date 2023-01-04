@@ -68,10 +68,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD386965-9185-41F6-93A9-42F5E027ADEB}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
-				<Property Name="Bld_version.major" Type="Int">0</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">PicoG-Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/picoG/ppl/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -80,7 +78,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/picoG/ppl</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B979FBC0-C239-40C4-85F5-634837809A69}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE8F486C-16A7-40A6-AD89-4CBBE1C86B9D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PicoG-Core.lvlib</Property>

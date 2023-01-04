@@ -37,6 +37,7 @@
   <Item ID="7F78274A-5620-4DB3-8D5E-D47F8E04" Type="Project" Version="1.1">
     <Info Path="..\lvproj\PicoG-App.lvproj" X64="FALSE">
       <Config Name="Debug">
+        <Exclude Spec="PicoG App EXE" Target="My Computer"/>
         <Debug Spec="PicoG App EXE" Target="My Computer"/>
         <Debug Spec="PicoG App PPL" Target="My Computer"/>
       </Config>
