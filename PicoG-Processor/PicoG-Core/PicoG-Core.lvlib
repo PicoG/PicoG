@@ -25,6 +25,7 @@
 	</Item>
 	<Item Name="Common Resources" Type="Folder">
 		<Item Name="VisaResource.lvclass" Type="LVClass" URL="../VisaResource/VisaResource.lvclass"/>
+		<Item Name="SerialResource.lvclass" Type="LVClass" URL="../SerialResource/SerialResource.lvclass"/>
 	</Item>
 	<Item Name="Platform.lvclass" Type="LVClass" URL="../Platform/Platform.lvclass"/>
 	<Item Name="Resource.lvclass" Type="LVClass" URL="../Resource/Resource.lvclass"/>
