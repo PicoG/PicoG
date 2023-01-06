@@ -26,11 +26,11 @@
 	<Item Name="Common Resources" Type="Folder">
 		<Item Name="VisaResource.lvclass" Type="LVClass" URL="../VisaResource/VisaResource.lvclass"/>
 		<Item Name="SerialResource.lvclass" Type="LVClass" URL="../SerialResource/SerialResource.lvclass"/>
+		<Item Name="TCPResource.lvclass" Type="LVClass" URL="../TCPResource/TCPResource.lvclass"/>
 	</Item>
 	<Item Name="Platform.lvclass" Type="LVClass" URL="../Platform/Platform.lvclass"/>
 	<Item Name="Resource.lvclass" Type="LVClass" URL="../Resource/Resource.lvclass"/>
 	<Item Name="PlatformManager.lvclass" Type="LVClass" URL="../PlatformManager/PlatformManager.lvclass"/>
-	<Item Name="Terminal.lvclass" Type="LVClass" URL="../Terminal/Terminal.lvclass"/>
 	<Item Name="Create Error.vi" Type="VI" URL="../Create Error.vi"/>
 	<Item Name="PNG Loader Tool.vi" Type="VI" URL="../PNG Loader Tool.vi"/>
 </Library>

@@ -89,6 +89,21 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
 			</Item>
 		</Item>
+		<Item Name="Is Open" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Is Open</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Is Open</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Is Open.vi" Type="VI" URL="../Is Open.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1&gt;*=S"0='6O!$J!=!!?!!!D%&amp;"J9W^(,5.P=G5O&lt;(:M;7)15G6T&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!-5G6T&lt;X6S9W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!D%&amp;"J9W^(,5.P=G5O&lt;(:M;7)15G6T&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!,5G6T&lt;X6S9W5A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+			</Item>
+		</Item>
 		<Item Name="Resource Type" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Resource Type</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Resource Type</Property>
